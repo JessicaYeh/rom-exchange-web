@@ -1,0 +1,5153 @@
+[
+    {
+        "name": "Shining Stone",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": -60.5,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": true,
+                        "price": 94954,
+                        "time": "2019-01-26T15:43:51Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 126386,
+                        "time": "2019-01-27T15:38:45Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 203549,
+                        "time": "2019-01-28T15:29:22Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 270925,
+                        "time": "2019-01-29T18:03:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 382055,
+                        "time": "2019-01-30T15:49:38Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 397342,
+                        "time": "2019-01-31T15:17:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 390002,
+                        "time": "2019-02-01T16:41:04Z"
+                    }
+                ],
+                "change": 310.7
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": true,
+                        "price": 94954,
+                        "time": "2019-01-26T15:43:51Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 126386,
+                        "time": "2019-01-27T15:38:45Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 203549,
+                        "time": "2019-01-28T15:29:22Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 270925,
+                        "time": "2019-01-29T18:03:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 382055,
+                        "time": "2019-01-30T15:49:38Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 397342,
+                        "time": "2019-01-31T15:17:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 390002,
+                        "time": "2019-02-01T16:41:04Z"
+                    }
+                ],
+                "change": 310.7
+            },
+            "latest": 390002,
+            "month": {
+                "data": [
+                    {
+                        "snap": true,
+                        "price": 94954,
+                        "time": "2019-01-26T15:43:51Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 126386,
+                        "time": "2019-01-27T15:38:45Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 203549,
+                        "time": "2019-01-28T15:29:22Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 270925,
+                        "time": "2019-01-29T18:03:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 382055,
+                        "time": "2019-01-30T15:49:38Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 397342,
+                        "time": "2019-01-31T15:17:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 390002,
+                        "time": "2019-02-01T16:41:04Z"
+                    }
+                ],
+                "change": 310.7
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 127275,
+                        "time": "2019-01-26T20:15:02Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 146142,
+                        "time": "2019-01-27T20:33:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 160394,
+                        "time": "2019-01-28T18:04:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 161094,
+                        "time": "2019-01-29T20:52:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 158692,
+                        "time": "2019-01-30T20:22:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 155143,
+                        "time": "2019-01-31T19:05:18Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 153975,
+                        "time": "2019-02-01T19:40:33Z"
+                    }
+                ],
+                "change": 21
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 124049,
+                        "time": "2019-01-25T21:31:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 127275,
+                        "time": "2019-01-26T20:15:02Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 146142,
+                        "time": "2019-01-27T20:33:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 160394,
+                        "time": "2019-01-28T18:04:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 161094,
+                        "time": "2019-01-29T20:52:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 158692,
+                        "time": "2019-01-30T20:22:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 155143,
+                        "time": "2019-01-31T19:05:18Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 153975,
+                        "time": "2019-02-01T19:40:33Z"
+                    }
+                ],
+                "change": 24.1
+            },
+            "latest": 153975,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 124049,
+                        "time": "2019-01-25T21:31:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 127275,
+                        "time": "2019-01-26T20:15:02Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 146142,
+                        "time": "2019-01-27T20:33:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 160394,
+                        "time": "2019-01-28T18:04:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 161094,
+                        "time": "2019-01-29T20:52:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 158692,
+                        "time": "2019-01-30T20:22:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 155143,
+                        "time": "2019-01-31T19:05:18Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 153975,
+                        "time": "2019-02-01T19:40:33Z"
+                    }
+                ],
+                "change": 24.1
+            }
+        }
+    },
+    {
+        "name": "Seed of Mastela",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": -24.6,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 37221,
+                        "time": "2019-01-26T15:39:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 37427,
+                        "time": "2019-01-27T15:35:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 36869,
+                        "time": "2019-01-28T15:25:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 42297,
+                        "time": "2019-01-29T17:57:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 50131,
+                        "time": "2019-01-30T15:34:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 66735,
+                        "time": "2019-01-31T15:12:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 53712,
+                        "time": "2019-02-01T16:35:57Z"
+                    }
+                ],
+                "change": 44.3
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 40270,
+                        "time": "2019-01-23T21:19:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 41517,
+                        "time": "2019-01-24T14:57:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 39591,
+                        "time": "2019-01-25T14:33:16Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 37221,
+                        "time": "2019-01-26T15:39:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 37427,
+                        "time": "2019-01-27T15:35:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 36869,
+                        "time": "2019-01-28T15:25:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 42297,
+                        "time": "2019-01-29T17:57:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 50131,
+                        "time": "2019-01-30T15:34:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 66735,
+                        "time": "2019-01-31T15:12:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 53712,
+                        "time": "2019-02-01T16:35:57Z"
+                    }
+                ],
+                "change": 33.4
+            },
+            "latest": 53712,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 40270,
+                        "time": "2019-01-23T21:19:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 41517,
+                        "time": "2019-01-24T14:57:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 39591,
+                        "time": "2019-01-25T14:33:16Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 37221,
+                        "time": "2019-01-26T15:39:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 37427,
+                        "time": "2019-01-27T15:35:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 36869,
+                        "time": "2019-01-28T15:25:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 42297,
+                        "time": "2019-01-29T17:57:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 50131,
+                        "time": "2019-01-30T15:34:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 66735,
+                        "time": "2019-01-31T15:12:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 53712,
+                        "time": "2019-02-01T16:35:57Z"
+                    }
+                ],
+                "change": 33.4
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 46994,
+                        "time": "2019-01-26T20:09:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 43936,
+                        "time": "2019-01-27T20:26:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 41353,
+                        "time": "2019-01-28T17:58:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 54731,
+                        "time": "2019-01-29T20:35:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 49044,
+                        "time": "2019-01-30T20:10:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 42275,
+                        "time": "2019-01-31T18:59:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 40489,
+                        "time": "2019-02-01T19:34:25Z"
+                    }
+                ],
+                "change": -13.8
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 50438,
+                        "time": "2019-01-25T21:26:34Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 46994,
+                        "time": "2019-01-26T20:09:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 43936,
+                        "time": "2019-01-27T20:26:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 41353,
+                        "time": "2019-01-28T17:58:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 54731,
+                        "time": "2019-01-29T20:35:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 49044,
+                        "time": "2019-01-30T20:10:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 42275,
+                        "time": "2019-01-31T18:59:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 40489,
+                        "time": "2019-02-01T19:34:25Z"
+                    }
+                ],
+                "change": -19.7
+            },
+            "latest": 40489,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 50438,
+                        "time": "2019-01-25T21:26:34Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 46994,
+                        "time": "2019-01-26T20:09:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 43936,
+                        "time": "2019-01-27T20:26:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 41353,
+                        "time": "2019-01-28T17:58:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 54731,
+                        "time": "2019-01-29T20:35:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 49044,
+                        "time": "2019-01-30T20:10:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 42275,
+                        "time": "2019-01-31T18:59:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 40489,
+                        "time": "2019-02-01T19:34:25Z"
+                    }
+                ],
+                "change": -19.7
+            }
+        }
+    },
+    {
+        "name": "Dragon Scale",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": -47.5,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 224291,
+                        "time": "2019-01-26T15:37:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 254936,
+                        "time": "2019-01-27T15:33:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 280621,
+                        "time": "2019-01-28T15:23:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 300919,
+                        "time": "2019-01-29T17:55:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 310757,
+                        "time": "2019-01-30T15:33:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 349131,
+                        "time": "2019-01-31T15:10:25Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 390512,
+                        "time": "2019-02-01T16:33:12Z"
+                    }
+                ],
+                "change": 74.1
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 183642,
+                        "time": "2019-01-23T21:17:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 188258,
+                        "time": "2019-01-24T14:56:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 201579,
+                        "time": "2019-01-25T14:31:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 224291,
+                        "time": "2019-01-26T15:37:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 254936,
+                        "time": "2019-01-27T15:33:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 280621,
+                        "time": "2019-01-28T15:23:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 300919,
+                        "time": "2019-01-29T17:55:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 310757,
+                        "time": "2019-01-30T15:33:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 349131,
+                        "time": "2019-01-31T15:10:25Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 390512,
+                        "time": "2019-02-01T16:33:12Z"
+                    }
+                ],
+                "change": 112.6
+            },
+            "latest": 390512,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 183642,
+                        "time": "2019-01-23T21:17:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 188258,
+                        "time": "2019-01-24T14:56:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 201579,
+                        "time": "2019-01-25T14:31:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 224291,
+                        "time": "2019-01-26T15:37:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 254936,
+                        "time": "2019-01-27T15:33:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 280621,
+                        "time": "2019-01-28T15:23:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 300919,
+                        "time": "2019-01-29T17:55:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 310757,
+                        "time": "2019-01-30T15:33:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 349131,
+                        "time": "2019-01-31T15:10:25Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 390512,
+                        "time": "2019-02-01T16:33:12Z"
+                    }
+                ],
+                "change": 112.6
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 99328,
+                        "time": "2019-01-26T20:09:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 96882,
+                        "time": "2019-01-27T20:26:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 99725,
+                        "time": "2019-01-28T17:56:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 113092,
+                        "time": "2019-01-29T20:37:09Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 139114,
+                        "time": "2019-01-30T20:05:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 181540,
+                        "time": "2019-01-31T18:55:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 204994,
+                        "time": "2019-02-01T19:31:56Z"
+                    }
+                ],
+                "change": 106.4
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 105119,
+                        "time": "2019-01-25T21:26:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 99328,
+                        "time": "2019-01-26T20:09:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 96882,
+                        "time": "2019-01-27T20:26:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 99725,
+                        "time": "2019-01-28T17:56:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 113092,
+                        "time": "2019-01-29T20:37:09Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 139114,
+                        "time": "2019-01-30T20:05:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 181540,
+                        "time": "2019-01-31T18:55:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 204994,
+                        "time": "2019-02-01T19:31:56Z"
+                    }
+                ],
+                "change": 95
+            },
+            "latest": 204994,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 105119,
+                        "time": "2019-01-25T21:26:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 99328,
+                        "time": "2019-01-26T20:09:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 96882,
+                        "time": "2019-01-27T20:26:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 99725,
+                        "time": "2019-01-28T17:56:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 113092,
+                        "time": "2019-01-29T20:37:09Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 139114,
+                        "time": "2019-01-30T20:05:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 181540,
+                        "time": "2019-01-31T18:55:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 204994,
+                        "time": "2019-02-01T19:31:56Z"
+                    }
+                ],
+                "change": 95
+            }
+        }
+    },
+    {
+        "name": "Bloody Rune",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": -41.8,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 272180,
+                        "time": "2019-01-26T15:38:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 264259,
+                        "time": "2019-01-27T15:35:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 258581,
+                        "time": "2019-01-28T15:25:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 228369,
+                        "time": "2019-01-29T17:58:34Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 204612,
+                        "time": "2019-01-30T15:35:56Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 191241,
+                        "time": "2019-01-31T15:12:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 188641,
+                        "time": "2019-02-01T16:35:27Z"
+                    }
+                ],
+                "change": -30.7
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 277536,
+                        "time": "2019-01-23T21:19:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 273831,
+                        "time": "2019-01-24T14:57:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 271471,
+                        "time": "2019-01-25T14:32:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 272180,
+                        "time": "2019-01-26T15:38:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 264259,
+                        "time": "2019-01-27T15:35:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 258581,
+                        "time": "2019-01-28T15:25:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 228369,
+                        "time": "2019-01-29T17:58:34Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 204612,
+                        "time": "2019-01-30T15:35:56Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 191241,
+                        "time": "2019-01-31T15:12:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 188641,
+                        "time": "2019-02-01T16:35:27Z"
+                    }
+                ],
+                "change": -32
+            },
+            "latest": 188641,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 277536,
+                        "time": "2019-01-23T21:19:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 273831,
+                        "time": "2019-01-24T14:57:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 271471,
+                        "time": "2019-01-25T14:32:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 272180,
+                        "time": "2019-01-26T15:38:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 264259,
+                        "time": "2019-01-27T15:35:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 258581,
+                        "time": "2019-01-28T15:25:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 228369,
+                        "time": "2019-01-29T17:58:34Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 204612,
+                        "time": "2019-01-30T15:35:56Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 191241,
+                        "time": "2019-01-31T15:12:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 188641,
+                        "time": "2019-02-01T16:35:27Z"
+                    }
+                ],
+                "change": -32
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 79637,
+                        "time": "2019-01-26T20:09:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 83470,
+                        "time": "2019-01-27T20:26:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 82785,
+                        "time": "2019-01-28T17:58:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 79482,
+                        "time": "2019-01-29T20:39:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 92060,
+                        "time": "2019-01-30T20:08:43Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 107868,
+                        "time": "2019-01-31T18:58:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 109704,
+                        "time": "2019-02-01T19:34:31Z"
+                    }
+                ],
+                "change": 37.8
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 17152,
+                        "time": "2019-01-25T21:26:43Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 79637,
+                        "time": "2019-01-26T20:09:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 83470,
+                        "time": "2019-01-27T20:26:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 82785,
+                        "time": "2019-01-28T17:58:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 79482,
+                        "time": "2019-01-29T20:39:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 92060,
+                        "time": "2019-01-30T20:08:43Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 107868,
+                        "time": "2019-01-31T18:58:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 109704,
+                        "time": "2019-02-01T19:34:31Z"
+                    }
+                ],
+                "change": 539.6
+            },
+            "latest": 109704,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 17152,
+                        "time": "2019-01-25T21:26:43Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 79637,
+                        "time": "2019-01-26T20:09:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 83470,
+                        "time": "2019-01-27T20:26:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 82785,
+                        "time": "2019-01-28T17:58:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 79482,
+                        "time": "2019-01-29T20:39:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 92060,
+                        "time": "2019-01-30T20:08:43Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 107868,
+                        "time": "2019-01-31T18:58:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 109704,
+                        "time": "2019-02-01T19:34:31Z"
+                    }
+                ],
+                "change": 539.6
+            }
+        }
+    },
+    {
+        "name": "Abysmal Knight Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 0,
+        "global": {
+            "week": {
+                "data": [],
+                "change": 0
+            },
+            "all": {
+                "data": [],
+                "change": 0
+            },
+            "latest": 0,
+            "month": {
+                "data": [],
+                "change": 0
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 17935314,
+                        "time": "2019-01-25T22:56:05Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 17708429,
+                        "time": "2019-01-26T20:48:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 15357654,
+                        "time": "2019-01-27T22:02:26Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 17263647,
+                        "time": "2019-01-28T18:30:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 16527294,
+                        "time": "2019-01-29T21:31:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 15651243,
+                        "time": "2019-01-30T21:42:14Z"
+                    }
+                ],
+                "change": -12.7
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 17935314,
+                        "time": "2019-01-25T22:56:05Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 17708429,
+                        "time": "2019-01-26T20:48:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 15357654,
+                        "time": "2019-01-27T22:02:26Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 17263647,
+                        "time": "2019-01-28T18:30:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 16527294,
+                        "time": "2019-01-29T21:31:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 15651243,
+                        "time": "2019-01-30T21:42:14Z"
+                    }
+                ],
+                "change": -12.7
+            },
+            "latest": 15651243,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 17935314,
+                        "time": "2019-01-25T22:56:05Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 17708429,
+                        "time": "2019-01-26T20:48:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 15357654,
+                        "time": "2019-01-27T22:02:26Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 17263647,
+                        "time": "2019-01-28T18:30:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 16527294,
+                        "time": "2019-01-29T21:31:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 15651243,
+                        "time": "2019-01-30T21:42:14Z"
+                    }
+                ],
+                "change": -12.7
+            }
+        }
+    },
+    {
+        "name": "Agav Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": -2.8,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5798999,
+                        "time": "2019-01-24T15:10:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5389063,
+                        "time": "2019-01-25T15:17:18Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6509944,
+                        "time": "2019-01-26T16:04:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5663512,
+                        "time": "2019-01-27T16:00:29Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6171889,
+                        "time": "2019-01-28T15:52:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6270201,
+                        "time": "2019-01-29T18:34:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6060245,
+                        "time": "2019-01-30T16:23:09Z"
+                    }
+                ],
+                "change": 4.5
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5962771,
+                        "time": "2019-01-23T21:47:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5798999,
+                        "time": "2019-01-24T15:10:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5389063,
+                        "time": "2019-01-25T15:17:18Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6509944,
+                        "time": "2019-01-26T16:04:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5663512,
+                        "time": "2019-01-27T16:00:29Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6171889,
+                        "time": "2019-01-28T15:52:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6270201,
+                        "time": "2019-01-29T18:34:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6060245,
+                        "time": "2019-01-30T16:23:09Z"
+                    }
+                ],
+                "change": 1.6
+            },
+            "latest": 6060245,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5962771,
+                        "time": "2019-01-23T21:47:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5798999,
+                        "time": "2019-01-24T15:10:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5389063,
+                        "time": "2019-01-25T15:17:18Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6509944,
+                        "time": "2019-01-26T16:04:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5663512,
+                        "time": "2019-01-27T16:00:29Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6171889,
+                        "time": "2019-01-28T15:52:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6270201,
+                        "time": "2019-01-29T18:34:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6060245,
+                        "time": "2019-01-30T16:23:09Z"
+                    }
+                ],
+                "change": 1.6
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5260157,
+                        "time": "2019-01-25T23:55:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5300348,
+                        "time": "2019-01-26T21:03:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5276241,
+                        "time": "2019-01-27T22:17:06Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5823849,
+                        "time": "2019-01-28T18:38:13Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5903090,
+                        "time": "2019-01-29T21:43:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5891051,
+                        "time": "2019-01-30T22:21:22Z"
+                    }
+                ],
+                "change": 12
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5260157,
+                        "time": "2019-01-25T23:55:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5300348,
+                        "time": "2019-01-26T21:03:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5276241,
+                        "time": "2019-01-27T22:17:06Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5823849,
+                        "time": "2019-01-28T18:38:13Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5903090,
+                        "time": "2019-01-29T21:43:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5891051,
+                        "time": "2019-01-30T22:21:22Z"
+                    }
+                ],
+                "change": 12
+            },
+            "latest": 5891051,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5260157,
+                        "time": "2019-01-25T23:55:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5300348,
+                        "time": "2019-01-26T21:03:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5276241,
+                        "time": "2019-01-27T22:17:06Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5823849,
+                        "time": "2019-01-28T18:38:13Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5903090,
+                        "time": "2019-01-29T21:43:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5891051,
+                        "time": "2019-01-30T22:21:22Z"
+                    }
+                ],
+                "change": 12
+            }
+        }
+    },
+    {
+        "name": "Agua Elemental Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 26.9,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1063359,
+                        "time": "2019-01-23T21:45:05Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1048161,
+                        "time": "2019-01-24T15:10:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1021581,
+                        "time": "2019-01-26T16:02:09Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 941741,
+                        "time": "2019-01-27T15:59:11Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 986012,
+                        "time": "2019-01-28T15:51:11Z"
+                    }
+                ],
+                "change": -7.3
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1063359,
+                        "time": "2019-01-23T21:45:05Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1048161,
+                        "time": "2019-01-24T15:10:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1021581,
+                        "time": "2019-01-26T16:02:09Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 941741,
+                        "time": "2019-01-27T15:59:11Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 986012,
+                        "time": "2019-01-28T15:51:11Z"
+                    }
+                ],
+                "change": -7.3
+            },
+            "latest": 986012,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1063359,
+                        "time": "2019-01-23T21:45:05Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1048161,
+                        "time": "2019-01-24T15:10:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1021581,
+                        "time": "2019-01-26T16:02:09Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 941741,
+                        "time": "2019-01-27T15:59:11Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 986012,
+                        "time": "2019-01-28T15:51:11Z"
+                    }
+                ],
+                "change": -7.3
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1127726,
+                        "time": "2019-01-25T02:14:23Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 1112096,
+                        "time": "2019-01-29T21:39:29Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 1251311,
+                        "time": "2019-01-30T22:16:53Z"
+                    }
+                ],
+                "change": 11
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1127726,
+                        "time": "2019-01-25T02:14:23Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 1112096,
+                        "time": "2019-01-29T21:39:29Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 1251311,
+                        "time": "2019-01-30T22:16:53Z"
+                    }
+                ],
+                "change": 11
+            },
+            "latest": 1251311,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1127726,
+                        "time": "2019-01-25T02:14:23Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 1112096,
+                        "time": "2019-01-29T21:39:29Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 1251311,
+                        "time": "2019-01-30T22:16:53Z"
+                    }
+                ],
+                "change": 11
+            }
+        }
+    },
+    {
+        "name": "Air Wave Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": -54.2,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 4926285,
+                        "time": "2019-01-24T15:07:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5575251,
+                        "time": "2019-01-25T15:04:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5122337,
+                        "time": "2019-01-26T15:57:18Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 5223698,
+                        "time": "2019-01-27T15:50:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5841972,
+                        "time": "2019-01-28T15:45:57Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4758324,
+                        "time": "2019-01-29T18:17:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4079669,
+                        "time": "2019-01-30T16:06:26Z"
+                    }
+                ],
+                "change": -17.2
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": true,
+                        "price": 5745775,
+                        "time": "2019-01-23T21:42:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4926285,
+                        "time": "2019-01-24T15:07:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5575251,
+                        "time": "2019-01-25T15:04:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5122337,
+                        "time": "2019-01-26T15:57:18Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 5223698,
+                        "time": "2019-01-27T15:50:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5841972,
+                        "time": "2019-01-28T15:45:57Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4758324,
+                        "time": "2019-01-29T18:17:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4079669,
+                        "time": "2019-01-30T16:06:26Z"
+                    }
+                ],
+                "change": -29
+            },
+            "latest": 4079669,
+            "month": {
+                "data": [
+                    {
+                        "snap": true,
+                        "price": 5745775,
+                        "time": "2019-01-23T21:42:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4926285,
+                        "time": "2019-01-24T15:07:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5575251,
+                        "time": "2019-01-25T15:04:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5122337,
+                        "time": "2019-01-26T15:57:18Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 5223698,
+                        "time": "2019-01-27T15:50:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5841972,
+                        "time": "2019-01-28T15:45:57Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4758324,
+                        "time": "2019-01-29T18:17:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4079669,
+                        "time": "2019-01-30T16:06:26Z"
+                    }
+                ],
+                "change": -29
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1496768,
+                        "time": "2019-01-25T22:56:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1600516,
+                        "time": "2019-01-26T20:48:23Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1552707,
+                        "time": "2019-01-27T22:02:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1605583,
+                        "time": "2019-01-28T18:30:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1763891,
+                        "time": "2019-01-29T21:30:48Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1867276,
+                        "time": "2019-01-30T21:41:59Z"
+                    }
+                ],
+                "change": 24.8
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1496768,
+                        "time": "2019-01-25T22:56:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1600516,
+                        "time": "2019-01-26T20:48:23Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1552707,
+                        "time": "2019-01-27T22:02:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1605583,
+                        "time": "2019-01-28T18:30:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1763891,
+                        "time": "2019-01-29T21:30:48Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1867276,
+                        "time": "2019-01-30T21:41:59Z"
+                    }
+                ],
+                "change": 24.8
+            },
+            "latest": 1867276,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1496768,
+                        "time": "2019-01-25T22:56:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1600516,
+                        "time": "2019-01-26T20:48:23Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1552707,
+                        "time": "2019-01-27T22:02:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1605583,
+                        "time": "2019-01-28T18:30:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1763891,
+                        "time": "2019-01-29T21:30:48Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1867276,
+                        "time": "2019-01-30T21:41:59Z"
+                    }
+                ],
+                "change": 24.8
+            }
+        }
+    },
+    {
+        "name": "Alarm Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 25.7,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 758277,
+                        "time": "2019-01-24T15:13:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1759307,
+                        "time": "2019-01-25T15:20:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 648876,
+                        "time": "2019-01-26T16:06:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 691412,
+                        "time": "2019-01-27T16:17:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 728749,
+                        "time": "2019-01-28T16:10:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 754737,
+                        "time": "2019-01-29T18:39:31Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 702076,
+                        "time": "2019-01-30T16:35:59Z"
+                    }
+                ],
+                "change": -7.4
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 715942,
+                        "time": "2019-01-23T22:05:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 758277,
+                        "time": "2019-01-24T15:13:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1759307,
+                        "time": "2019-01-25T15:20:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 648876,
+                        "time": "2019-01-26T16:06:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 691412,
+                        "time": "2019-01-27T16:17:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 728749,
+                        "time": "2019-01-28T16:10:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 754737,
+                        "time": "2019-01-29T18:39:31Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 702076,
+                        "time": "2019-01-30T16:35:59Z"
+                    }
+                ],
+                "change": -1.9
+            },
+            "latest": 702076,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 715942,
+                        "time": "2019-01-23T22:05:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 758277,
+                        "time": "2019-01-24T15:13:28Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1759307,
+                        "time": "2019-01-25T15:20:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 648876,
+                        "time": "2019-01-26T16:06:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 691412,
+                        "time": "2019-01-27T16:17:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 728749,
+                        "time": "2019-01-28T16:10:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 754737,
+                        "time": "2019-01-29T18:39:31Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 702076,
+                        "time": "2019-01-30T16:35:59Z"
+                    }
+                ],
+                "change": -1.9
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 739448,
+                        "time": "2019-01-25T02:23:08Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 825916,
+                        "time": "2019-01-26T21:08:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 871278,
+                        "time": "2019-01-27T22:23:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 869613,
+                        "time": "2019-01-28T18:45:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 898366,
+                        "time": "2019-01-29T21:50:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 882262,
+                        "time": "2019-01-30T22:36:11Z"
+                    }
+                ],
+                "change": 19.3
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 739448,
+                        "time": "2019-01-25T02:23:08Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 825916,
+                        "time": "2019-01-26T21:08:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 871278,
+                        "time": "2019-01-27T22:23:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 869613,
+                        "time": "2019-01-28T18:45:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 898366,
+                        "time": "2019-01-29T21:50:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 882262,
+                        "time": "2019-01-30T22:36:11Z"
+                    }
+                ],
+                "change": 19.3
+            },
+            "latest": 882262,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 739448,
+                        "time": "2019-01-25T02:23:08Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 825916,
+                        "time": "2019-01-26T21:08:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 871278,
+                        "time": "2019-01-27T22:23:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 869613,
+                        "time": "2019-01-28T18:45:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 898366,
+                        "time": "2019-01-29T21:50:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 882262,
+                        "time": "2019-01-30T22:36:11Z"
+                    }
+                ],
+                "change": 19.3
+            }
+        }
+    },
+    {
+        "name": "Alice Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 0,
+        "global": {
+            "week": {
+                "data": [],
+                "change": 0
+            },
+            "all": {
+                "data": [],
+                "change": 0
+            },
+            "latest": 0,
+            "month": {
+                "data": [],
+                "change": 0
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-25T23:08:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-26T20:53:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-27T22:10:08Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-28T18:35:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-29T21:39:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-30T22:16:58Z"
+                    }
+                ],
+                "change": 0
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-25T23:08:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-26T20:53:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-27T22:10:08Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-28T18:35:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-29T21:39:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-30T22:16:58Z"
+                    }
+                ],
+                "change": 0
+            },
+            "latest": 288000000,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-25T23:08:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-26T20:53:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-27T22:10:08Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-28T18:35:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-29T21:39:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 288000000,
+                        "time": "2019-01-30T22:16:58Z"
+                    }
+                ],
+                "change": 0
+            }
+        }
+    },
+    {
+        "name": "Anacondaq Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 319.6,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1690469,
+                        "time": "2019-01-23T22:08:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1449367,
+                        "time": "2019-01-24T15:15:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1180521,
+                        "time": "2019-01-25T15:21:51Z"
+                    }
+                ],
+                "change": -30.2
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1690469,
+                        "time": "2019-01-23T22:08:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1449367,
+                        "time": "2019-01-24T15:15:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1180521,
+                        "time": "2019-01-25T15:21:51Z"
+                    }
+                ],
+                "change": -30.2
+            },
+            "latest": 1180521,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1690469,
+                        "time": "2019-01-23T22:08:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1449367,
+                        "time": "2019-01-24T15:15:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1180521,
+                        "time": "2019-01-25T15:21:51Z"
+                    }
+                ],
+                "change": -30.2
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 2988909,
+                        "time": "2019-01-25T02:24:18Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 2846021,
+                        "time": "2019-01-26T00:54:45Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 3471687,
+                        "time": "2019-01-28T18:47:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 3805707,
+                        "time": "2019-01-29T21:54:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4953037,
+                        "time": "2019-01-30T22:49:50Z"
+                    }
+                ],
+                "change": 65.7
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 2988909,
+                        "time": "2019-01-25T02:24:18Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 2846021,
+                        "time": "2019-01-26T00:54:45Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 3471687,
+                        "time": "2019-01-28T18:47:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 3805707,
+                        "time": "2019-01-29T21:54:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4953037,
+                        "time": "2019-01-30T22:49:50Z"
+                    }
+                ],
+                "change": 65.7
+            },
+            "latest": 4953037,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 2988909,
+                        "time": "2019-01-25T02:24:18Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 2846021,
+                        "time": "2019-01-26T00:54:45Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 3471687,
+                        "time": "2019-01-28T18:47:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 3805707,
+                        "time": "2019-01-29T21:54:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4953037,
+                        "time": "2019-01-30T22:49:50Z"
+                    }
+                ],
+                "change": 65.7
+            }
+        }
+    },
+    {
+        "name": "Ancient Clock Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 25.7,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 451806,
+                        "time": "2019-01-24T15:11:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 450787,
+                        "time": "2019-01-25T15:17:48Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 434082,
+                        "time": "2019-01-26T16:04:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 459842,
+                        "time": "2019-01-27T16:00:43Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 425663,
+                        "time": "2019-01-28T15:52:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 449309,
+                        "time": "2019-01-29T18:35:12Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 426024,
+                        "time": "2019-01-30T16:23:34Z"
+                    }
+                ],
+                "change": -5.7
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 439244,
+                        "time": "2019-01-23T21:47:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 451806,
+                        "time": "2019-01-24T15:11:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 450787,
+                        "time": "2019-01-25T15:17:48Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 434082,
+                        "time": "2019-01-26T16:04:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 459842,
+                        "time": "2019-01-27T16:00:43Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 425663,
+                        "time": "2019-01-28T15:52:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 449309,
+                        "time": "2019-01-29T18:35:12Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 426024,
+                        "time": "2019-01-30T16:23:34Z"
+                    }
+                ],
+                "change": -3
+            },
+            "latest": 426024,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 439244,
+                        "time": "2019-01-23T21:47:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 451806,
+                        "time": "2019-01-24T15:11:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 450787,
+                        "time": "2019-01-25T15:17:48Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 434082,
+                        "time": "2019-01-26T16:04:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 459842,
+                        "time": "2019-01-27T16:00:43Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 425663,
+                        "time": "2019-01-28T15:52:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 449309,
+                        "time": "2019-01-29T18:35:12Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 426024,
+                        "time": "2019-01-30T16:23:34Z"
+                    }
+                ],
+                "change": -3
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 494597,
+                        "time": "2019-01-25T23:54:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 503929,
+                        "time": "2019-01-26T21:04:04Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 482405,
+                        "time": "2019-01-27T22:16:22Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 475392,
+                        "time": "2019-01-28T18:37:52Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 535683,
+                        "time": "2019-01-30T22:22:12Z"
+                    }
+                ],
+                "change": 8.3
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 494597,
+                        "time": "2019-01-25T23:54:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 503929,
+                        "time": "2019-01-26T21:04:04Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 482405,
+                        "time": "2019-01-27T22:16:22Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 475392,
+                        "time": "2019-01-28T18:37:52Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 535683,
+                        "time": "2019-01-30T22:22:12Z"
+                    }
+                ],
+                "change": 8.3
+            },
+            "latest": 535683,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 494597,
+                        "time": "2019-01-25T23:54:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 503929,
+                        "time": "2019-01-26T21:04:04Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 482405,
+                        "time": "2019-01-27T22:16:22Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 475392,
+                        "time": "2019-01-28T18:37:52Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 535683,
+                        "time": "2019-01-30T22:22:12Z"
+                    }
+                ],
+                "change": 8.3
+            }
+        }
+    },
+    {
+        "name": "Andre Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 37.7,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 264525,
+                        "time": "2019-01-24T15:09:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 265827,
+                        "time": "2019-01-25T15:07:29Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 266672,
+                        "time": "2019-01-26T16:00:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 283575,
+                        "time": "2019-01-27T15:53:46Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 272973,
+                        "time": "2019-01-28T15:48:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 291295,
+                        "time": "2019-01-29T18:29:11Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 263830,
+                        "time": "2019-01-30T16:09:43Z"
+                    }
+                ],
+                "change": -0.3
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 276104,
+                        "time": "2019-01-23T21:43:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 264525,
+                        "time": "2019-01-24T15:09:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 265827,
+                        "time": "2019-01-25T15:07:29Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 266672,
+                        "time": "2019-01-26T16:00:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 283575,
+                        "time": "2019-01-27T15:53:46Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 272973,
+                        "time": "2019-01-28T15:48:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 291295,
+                        "time": "2019-01-29T18:29:11Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 263830,
+                        "time": "2019-01-30T16:09:43Z"
+                    }
+                ],
+                "change": -4.4
+            },
+            "latest": 263830,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 276104,
+                        "time": "2019-01-23T21:43:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 264525,
+                        "time": "2019-01-24T15:09:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 265827,
+                        "time": "2019-01-25T15:07:29Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 266672,
+                        "time": "2019-01-26T16:00:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 283575,
+                        "time": "2019-01-27T15:53:46Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 272973,
+                        "time": "2019-01-28T15:48:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 291295,
+                        "time": "2019-01-29T18:29:11Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 263830,
+                        "time": "2019-01-30T16:09:43Z"
+                    }
+                ],
+                "change": -4.4
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 326170,
+                        "time": "2019-01-25T22:59:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 329744,
+                        "time": "2019-01-26T20:52:27Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 334156,
+                        "time": "2019-01-27T22:05:50Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 330781,
+                        "time": "2019-01-28T18:33:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 359307,
+                        "time": "2019-01-29T21:35:06Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 363391,
+                        "time": "2019-01-30T21:45:47Z"
+                    }
+                ],
+                "change": 11.4
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 326170,
+                        "time": "2019-01-25T22:59:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 329744,
+                        "time": "2019-01-26T20:52:27Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 334156,
+                        "time": "2019-01-27T22:05:50Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 330781,
+                        "time": "2019-01-28T18:33:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 359307,
+                        "time": "2019-01-29T21:35:06Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 363391,
+                        "time": "2019-01-30T21:45:47Z"
+                    }
+                ],
+                "change": 11.4
+            },
+            "latest": 363391,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 326170,
+                        "time": "2019-01-25T22:59:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 329744,
+                        "time": "2019-01-26T20:52:27Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 334156,
+                        "time": "2019-01-27T22:05:50Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 330781,
+                        "time": "2019-01-28T18:33:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 359307,
+                        "time": "2019-01-29T21:35:06Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 363391,
+                        "time": "2019-01-30T21:45:47Z"
+                    }
+                ],
+                "change": 11.4
+            }
+        }
+    },
+    {
+        "name": "Anolian Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 6.9,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 460411,
+                        "time": "2019-01-24T15:11:16Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 443811,
+                        "time": "2019-01-25T15:17:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 445974,
+                        "time": "2019-01-26T16:05:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 493163,
+                        "time": "2019-01-27T16:01:02Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 438880,
+                        "time": "2019-01-28T15:53:46Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 468781,
+                        "time": "2019-01-29T18:36:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 460251,
+                        "time": "2019-01-30T16:23:58Z"
+                    }
+                ],
+                "change": 0
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 441465,
+                        "time": "2019-01-23T21:47:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 460411,
+                        "time": "2019-01-24T15:11:16Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 443811,
+                        "time": "2019-01-25T15:17:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 445974,
+                        "time": "2019-01-26T16:05:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 493163,
+                        "time": "2019-01-27T16:01:02Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 438880,
+                        "time": "2019-01-28T15:53:46Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 468781,
+                        "time": "2019-01-29T18:36:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 460251,
+                        "time": "2019-01-30T16:23:58Z"
+                    }
+                ],
+                "change": 4.3
+            },
+            "latest": 460251,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 441465,
+                        "time": "2019-01-23T21:47:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 460411,
+                        "time": "2019-01-24T15:11:16Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 443811,
+                        "time": "2019-01-25T15:17:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 445974,
+                        "time": "2019-01-26T16:05:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 493163,
+                        "time": "2019-01-27T16:01:02Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 438880,
+                        "time": "2019-01-28T15:53:46Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 468781,
+                        "time": "2019-01-29T18:36:39Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 460251,
+                        "time": "2019-01-30T16:23:58Z"
+                    }
+                ],
+                "change": 4.3
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 454382,
+                        "time": "2019-01-25T23:56:23Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 486781,
+                        "time": "2019-01-26T21:05:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 508960,
+                        "time": "2019-01-27T22:18:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 487666,
+                        "time": "2019-01-28T18:39:46Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 500759,
+                        "time": "2019-01-29T21:44:45Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 492108,
+                        "time": "2019-01-30T22:23:21Z"
+                    }
+                ],
+                "change": 8.3
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 454382,
+                        "time": "2019-01-25T23:56:23Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 486781,
+                        "time": "2019-01-26T21:05:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 508960,
+                        "time": "2019-01-27T22:18:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 487666,
+                        "time": "2019-01-28T18:39:46Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 500759,
+                        "time": "2019-01-29T21:44:45Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 492108,
+                        "time": "2019-01-30T22:23:21Z"
+                    }
+                ],
+                "change": 8.3
+            },
+            "latest": 492108,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 454382,
+                        "time": "2019-01-25T23:56:23Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 486781,
+                        "time": "2019-01-26T21:05:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 508960,
+                        "time": "2019-01-27T22:18:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 487666,
+                        "time": "2019-01-28T18:39:46Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 500759,
+                        "time": "2019-01-29T21:44:45Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 492108,
+                        "time": "2019-01-30T22:23:21Z"
+                    }
+                ],
+                "change": 8.3
+            }
+        }
+    },
+    {
+        "name": "Anubis Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 0,
+        "global": {
+            "week": {
+                "data": [],
+                "change": 0
+            },
+            "all": {
+                "data": [],
+                "change": 0
+            },
+            "latest": 0,
+            "month": {
+                "data": [],
+                "change": 0
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 11969385,
+                        "time": "2019-01-25T23:08:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 10702990,
+                        "time": "2019-01-26T20:54:02Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 12297597,
+                        "time": "2019-01-28T18:35:34Z"
+                    }
+                ],
+                "change": 2.7
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 11969385,
+                        "time": "2019-01-25T23:08:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 10702990,
+                        "time": "2019-01-26T20:54:02Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 12297597,
+                        "time": "2019-01-28T18:35:34Z"
+                    }
+                ],
+                "change": 2.7
+            },
+            "latest": 12297597,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 11969385,
+                        "time": "2019-01-25T23:08:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 10702990,
+                        "time": "2019-01-26T20:54:02Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 12297597,
+                        "time": "2019-01-28T18:35:34Z"
+                    }
+                ],
+                "change": 2.7
+            }
+        }
+    },
+    {
+        "name": "Aqua Elemental Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": -37.1,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1121344,
+                        "time": "2019-01-25T15:11:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1654918,
+                        "time": "2019-01-30T16:19:29Z"
+                    }
+                ],
+                "change": 47.6
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1121344,
+                        "time": "2019-01-25T15:11:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1654918,
+                        "time": "2019-01-30T16:19:29Z"
+                    }
+                ],
+                "change": 47.6
+            },
+            "latest": 1654918,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1121344,
+                        "time": "2019-01-25T15:11:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1654918,
+                        "time": "2019-01-30T16:19:29Z"
+                    }
+                ],
+                "change": 47.6
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1078841,
+                        "time": "2019-01-26T20:54:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1048875,
+                        "time": "2019-01-27T22:10:50Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1040979,
+                        "time": "2019-01-28T18:36:08Z"
+                    }
+                ],
+                "change": -3.5
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1078841,
+                        "time": "2019-01-26T20:54:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1048875,
+                        "time": "2019-01-27T22:10:50Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1040979,
+                        "time": "2019-01-28T18:36:08Z"
+                    }
+                ],
+                "change": -3.5
+            },
+            "latest": 1040979,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1078841,
+                        "time": "2019-01-26T20:54:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1048875,
+                        "time": "2019-01-27T22:10:50Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1040979,
+                        "time": "2019-01-28T18:36:08Z"
+                    }
+                ],
+                "change": -3.5
+            }
+        }
+    },
+    {
+        "name": "Archer Skeleton *Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 0,
+        "global": {
+            "week": {
+                "data": [],
+                "change": 0
+            },
+            "all": {
+                "data": [],
+                "change": 0
+            },
+            "latest": 0,
+            "month": {
+                "data": [],
+                "change": 0
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 12527044,
+                        "time": "2019-01-25T23:54:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 12871764,
+                        "time": "2019-01-26T20:58:44Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13312645,
+                        "time": "2019-01-27T22:16:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13726381,
+                        "time": "2019-01-28T18:38:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13116290,
+                        "time": "2019-01-29T21:43:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13748927,
+                        "time": "2019-01-30T22:21:08Z"
+                    }
+                ],
+                "change": 9.8
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 12527044,
+                        "time": "2019-01-25T23:54:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 12871764,
+                        "time": "2019-01-26T20:58:44Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13312645,
+                        "time": "2019-01-27T22:16:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13726381,
+                        "time": "2019-01-28T18:38:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13116290,
+                        "time": "2019-01-29T21:43:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13748927,
+                        "time": "2019-01-30T22:21:08Z"
+                    }
+                ],
+                "change": 9.8
+            },
+            "latest": 13748927,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 12527044,
+                        "time": "2019-01-25T23:54:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 12871764,
+                        "time": "2019-01-26T20:58:44Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13312645,
+                        "time": "2019-01-27T22:16:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13726381,
+                        "time": "2019-01-28T18:38:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13116290,
+                        "time": "2019-01-29T21:43:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 13748927,
+                        "time": "2019-01-30T22:21:08Z"
+                    }
+                ],
+                "change": 9.8
+            }
+        }
+    },
+    {
+        "name": "Archer Skeleton Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 44.8,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 6729165,
+                        "time": "2019-01-24T15:07:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 7309635,
+                        "time": "2019-01-25T15:05:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6971124,
+                        "time": "2019-01-26T15:58:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6800523,
+                        "time": "2019-01-27T15:50:52Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6978188,
+                        "time": "2019-01-28T15:46:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 7182256,
+                        "time": "2019-01-29T18:18:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6237449,
+                        "time": "2019-01-30T16:07:46Z"
+                    }
+                ],
+                "change": -7.3
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 6090643,
+                        "time": "2019-01-23T21:42:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6729165,
+                        "time": "2019-01-24T15:07:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 7309635,
+                        "time": "2019-01-25T15:05:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6971124,
+                        "time": "2019-01-26T15:58:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6800523,
+                        "time": "2019-01-27T15:50:52Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6978188,
+                        "time": "2019-01-28T15:46:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 7182256,
+                        "time": "2019-01-29T18:18:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6237449,
+                        "time": "2019-01-30T16:07:46Z"
+                    }
+                ],
+                "change": 2.4
+            },
+            "latest": 6237449,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 6090643,
+                        "time": "2019-01-23T21:42:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6729165,
+                        "time": "2019-01-24T15:07:17Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 7309635,
+                        "time": "2019-01-25T15:05:01Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6971124,
+                        "time": "2019-01-26T15:58:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6800523,
+                        "time": "2019-01-27T15:50:52Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6978188,
+                        "time": "2019-01-28T15:46:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 7182256,
+                        "time": "2019-01-29T18:18:49Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6237449,
+                        "time": "2019-01-30T16:07:46Z"
+                    }
+                ],
+                "change": 2.4
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 8247875,
+                        "time": "2019-01-25T22:57:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8435098,
+                        "time": "2019-01-26T20:50:11Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8830914,
+                        "time": "2019-01-27T22:03:38Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8992358,
+                        "time": "2019-01-28T18:31:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 9216447,
+                        "time": "2019-01-29T21:32:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 9032787,
+                        "time": "2019-01-30T21:44:06Z"
+                    }
+                ],
+                "change": 9.5
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 8247875,
+                        "time": "2019-01-25T22:57:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8435098,
+                        "time": "2019-01-26T20:50:11Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8830914,
+                        "time": "2019-01-27T22:03:38Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8992358,
+                        "time": "2019-01-28T18:31:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 9216447,
+                        "time": "2019-01-29T21:32:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 9032787,
+                        "time": "2019-01-30T21:44:06Z"
+                    }
+                ],
+                "change": 9.5
+            },
+            "latest": 9032787,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 8247875,
+                        "time": "2019-01-25T22:57:40Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8435098,
+                        "time": "2019-01-26T20:50:11Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8830914,
+                        "time": "2019-01-27T22:03:38Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8992358,
+                        "time": "2019-01-28T18:31:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 9216447,
+                        "time": "2019-01-29T21:32:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 9032787,
+                        "time": "2019-01-30T21:44:06Z"
+                    }
+                ],
+                "change": 9.5
+            }
+        }
+    },
+    {
+        "name": "Argiope Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": -51.8,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 593319,
+                        "time": "2019-01-24T15:11:26Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 650627,
+                        "time": "2019-01-25T15:18:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 720310,
+                        "time": "2019-01-26T16:04:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 741304,
+                        "time": "2019-01-27T16:01:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 174552,
+                        "time": "2019-01-28T15:53:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1188743,
+                        "time": "2019-01-29T18:35:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1075808,
+                        "time": "2019-01-30T16:24:10Z"
+                    }
+                ],
+                "change": 81.3
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 607986,
+                        "time": "2019-01-23T21:48:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 593319,
+                        "time": "2019-01-24T15:11:26Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 650627,
+                        "time": "2019-01-25T15:18:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 720310,
+                        "time": "2019-01-26T16:04:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 741304,
+                        "time": "2019-01-27T16:01:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 174552,
+                        "time": "2019-01-28T15:53:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1188743,
+                        "time": "2019-01-29T18:35:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1075808,
+                        "time": "2019-01-30T16:24:10Z"
+                    }
+                ],
+                "change": 76.9
+            },
+            "latest": 1075808,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 607986,
+                        "time": "2019-01-23T21:48:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 593319,
+                        "time": "2019-01-24T15:11:26Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 650627,
+                        "time": "2019-01-25T15:18:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 720310,
+                        "time": "2019-01-26T16:04:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 741304,
+                        "time": "2019-01-27T16:01:36Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 174552,
+                        "time": "2019-01-28T15:53:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1188743,
+                        "time": "2019-01-29T18:35:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1075808,
+                        "time": "2019-01-30T16:24:10Z"
+                    }
+                ],
+                "change": 76.9
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 479759,
+                        "time": "2019-01-25T23:55:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 493539,
+                        "time": "2019-01-26T21:04:27Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 505360,
+                        "time": "2019-01-27T22:17:44Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 510764,
+                        "time": "2019-01-28T18:39:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 521276,
+                        "time": "2019-01-29T21:44:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 518490,
+                        "time": "2019-01-30T22:22:32Z"
+                    }
+                ],
+                "change": 8.1
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 479759,
+                        "time": "2019-01-25T23:55:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 493539,
+                        "time": "2019-01-26T21:04:27Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 505360,
+                        "time": "2019-01-27T22:17:44Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 510764,
+                        "time": "2019-01-28T18:39:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 521276,
+                        "time": "2019-01-29T21:44:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 518490,
+                        "time": "2019-01-30T22:22:32Z"
+                    }
+                ],
+                "change": 8.1
+            },
+            "latest": 518490,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 479759,
+                        "time": "2019-01-25T23:55:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 493539,
+                        "time": "2019-01-26T21:04:27Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 505360,
+                        "time": "2019-01-27T22:17:44Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 510764,
+                        "time": "2019-01-28T18:39:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 521276,
+                        "time": "2019-01-29T21:44:04Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 518490,
+                        "time": "2019-01-30T22:22:32Z"
+                    }
+                ],
+                "change": 8.1
+            }
+        }
+    },
+    {
+        "name": "Baphomet Jr. Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": -11.2,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 4841047,
+                        "time": "2019-01-23T22:03:20Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4630315,
+                        "time": "2019-01-24T15:12:47Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 6934933,
+                        "time": "2019-01-26T16:05:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 7178008,
+                        "time": "2019-01-27T16:02:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8069244,
+                        "time": "2019-01-28T16:08:16Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6814916,
+                        "time": "2019-01-29T18:37:38Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6181529,
+                        "time": "2019-01-30T16:32:24Z"
+                    }
+                ],
+                "change": 27.7
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 4841047,
+                        "time": "2019-01-23T22:03:20Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4630315,
+                        "time": "2019-01-24T15:12:47Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 6934933,
+                        "time": "2019-01-26T16:05:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 7178008,
+                        "time": "2019-01-27T16:02:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8069244,
+                        "time": "2019-01-28T16:08:16Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6814916,
+                        "time": "2019-01-29T18:37:38Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6181529,
+                        "time": "2019-01-30T16:32:24Z"
+                    }
+                ],
+                "change": 27.7
+            },
+            "latest": 6181529,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 4841047,
+                        "time": "2019-01-23T22:03:20Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 4630315,
+                        "time": "2019-01-24T15:12:47Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 6934933,
+                        "time": "2019-01-26T16:05:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 7178008,
+                        "time": "2019-01-27T16:02:21Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 8069244,
+                        "time": "2019-01-28T16:08:16Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6814916,
+                        "time": "2019-01-29T18:37:38Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 6181529,
+                        "time": "2019-01-30T16:32:24Z"
+                    }
+                ],
+                "change": 27.7
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5466509,
+                        "time": "2019-01-25T02:21:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5764068,
+                        "time": "2019-01-26T21:07:12Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5766716,
+                        "time": "2019-01-27T22:21:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5566246,
+                        "time": "2019-01-28T18:44:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5446837,
+                        "time": "2019-01-29T21:48:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5487211,
+                        "time": "2019-01-30T22:25:17Z"
+                    }
+                ],
+                "change": 0.4
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5466509,
+                        "time": "2019-01-25T02:21:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5764068,
+                        "time": "2019-01-26T21:07:12Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5766716,
+                        "time": "2019-01-27T22:21:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5566246,
+                        "time": "2019-01-28T18:44:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5446837,
+                        "time": "2019-01-29T21:48:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5487211,
+                        "time": "2019-01-30T22:25:17Z"
+                    }
+                ],
+                "change": 0.4
+            },
+            "latest": 5487211,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5466509,
+                        "time": "2019-01-25T02:21:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5764068,
+                        "time": "2019-01-26T21:07:12Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5766716,
+                        "time": "2019-01-27T22:21:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5566246,
+                        "time": "2019-01-28T18:44:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5446837,
+                        "time": "2019-01-29T21:48:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5487211,
+                        "time": "2019-01-30T22:25:17Z"
+                    }
+                ],
+                "change": 0.4
+            }
+        }
+    },
+    {
+        "name": "Bathory Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 17.5,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 831367,
+                        "time": "2019-01-24T15:11:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 833606,
+                        "time": "2019-01-25T15:17:30Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 980846,
+                        "time": "2019-01-26T16:03:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1332441,
+                        "time": "2019-01-27T16:00:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1085283,
+                        "time": "2019-01-28T15:52:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1003343,
+                        "time": "2019-01-29T18:35:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 938815,
+                        "time": "2019-01-30T16:23:23Z"
+                    }
+                ],
+                "change": 12.9
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 957046,
+                        "time": "2019-01-23T21:47:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 831367,
+                        "time": "2019-01-24T15:11:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 833606,
+                        "time": "2019-01-25T15:17:30Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 980846,
+                        "time": "2019-01-26T16:03:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1332441,
+                        "time": "2019-01-27T16:00:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1085283,
+                        "time": "2019-01-28T15:52:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1003343,
+                        "time": "2019-01-29T18:35:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 938815,
+                        "time": "2019-01-30T16:23:23Z"
+                    }
+                ],
+                "change": -1.9
+            },
+            "latest": 938815,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 957046,
+                        "time": "2019-01-23T21:47:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 831367,
+                        "time": "2019-01-24T15:11:03Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 833606,
+                        "time": "2019-01-25T15:17:30Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 980846,
+                        "time": "2019-01-26T16:03:51Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1332441,
+                        "time": "2019-01-27T16:00:24Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1085283,
+                        "time": "2019-01-28T15:52:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1003343,
+                        "time": "2019-01-29T18:35:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 938815,
+                        "time": "2019-01-30T16:23:23Z"
+                    }
+                ],
+                "change": -1.9
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1233314,
+                        "time": "2019-01-25T23:54:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1250147,
+                        "time": "2019-01-26T21:03:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 999975,
+                        "time": "2019-01-27T22:17:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1042298,
+                        "time": "2019-01-28T18:38:52Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1053997,
+                        "time": "2019-01-29T21:43:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1103053,
+                        "time": "2019-01-30T22:21:37Z"
+                    }
+                ],
+                "change": -10.6
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1233314,
+                        "time": "2019-01-25T23:54:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1250147,
+                        "time": "2019-01-26T21:03:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 999975,
+                        "time": "2019-01-27T22:17:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1042298,
+                        "time": "2019-01-28T18:38:52Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1053997,
+                        "time": "2019-01-29T21:43:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1103053,
+                        "time": "2019-01-30T22:21:37Z"
+                    }
+                ],
+                "change": -10.6
+            },
+            "latest": 1103053,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 1233314,
+                        "time": "2019-01-25T23:54:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1250147,
+                        "time": "2019-01-26T21:03:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 999975,
+                        "time": "2019-01-27T22:17:22Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1042298,
+                        "time": "2019-01-28T18:38:52Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1053997,
+                        "time": "2019-01-29T21:43:07Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 1103053,
+                        "time": "2019-01-30T22:21:37Z"
+                    }
+                ],
+                "change": -10.6
+            }
+        }
+    },
+    {
+        "name": "Bigfoot Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 50.8,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 279009,
+                        "time": "2019-01-24T15:10:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 282267,
+                        "time": "2019-01-25T15:11:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 262160,
+                        "time": "2019-01-26T16:02:57Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 289505,
+                        "time": "2019-01-27T15:59:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 285069,
+                        "time": "2019-01-28T15:51:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 298150,
+                        "time": "2019-01-29T18:33:22Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 258273,
+                        "time": "2019-01-30T16:19:17Z"
+                    }
+                ],
+                "change": -7.4
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 327071,
+                        "time": "2019-01-23T21:45:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 279009,
+                        "time": "2019-01-24T15:10:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 282267,
+                        "time": "2019-01-25T15:11:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 262160,
+                        "time": "2019-01-26T16:02:57Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 289505,
+                        "time": "2019-01-27T15:59:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 285069,
+                        "time": "2019-01-28T15:51:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 298150,
+                        "time": "2019-01-29T18:33:22Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 258273,
+                        "time": "2019-01-30T16:19:17Z"
+                    }
+                ],
+                "change": -21
+            },
+            "latest": 258273,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 327071,
+                        "time": "2019-01-23T21:45:32Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 279009,
+                        "time": "2019-01-24T15:10:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 282267,
+                        "time": "2019-01-25T15:11:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 262160,
+                        "time": "2019-01-26T16:02:57Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 289505,
+                        "time": "2019-01-27T15:59:35Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 285069,
+                        "time": "2019-01-28T15:51:59Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 298150,
+                        "time": "2019-01-29T18:33:22Z"
+                    },
+                    {
+                        "snap": true,
+                        "price": 258273,
+                        "time": "2019-01-30T16:19:17Z"
+                    }
+                ],
+                "change": -21
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 337570,
+                        "time": "2019-01-25T23:09:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 316069,
+                        "time": "2019-01-26T20:55:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 310560,
+                        "time": "2019-01-27T22:11:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 313293,
+                        "time": "2019-01-28T18:37:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 335200,
+                        "time": "2019-01-29T21:41:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 389461,
+                        "time": "2019-01-30T22:18:09Z"
+                    }
+                ],
+                "change": 15.4
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 337570,
+                        "time": "2019-01-25T23:09:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 316069,
+                        "time": "2019-01-26T20:55:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 310560,
+                        "time": "2019-01-27T22:11:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 313293,
+                        "time": "2019-01-28T18:37:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 335200,
+                        "time": "2019-01-29T21:41:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 389461,
+                        "time": "2019-01-30T22:18:09Z"
+                    }
+                ],
+                "change": 15.4
+            },
+            "latest": 389461,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 337570,
+                        "time": "2019-01-25T23:09:30Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 316069,
+                        "time": "2019-01-26T20:55:41Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 310560,
+                        "time": "2019-01-27T22:11:47Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 313293,
+                        "time": "2019-01-28T18:37:14Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 335200,
+                        "time": "2019-01-29T21:41:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 389461,
+                        "time": "2019-01-30T22:18:09Z"
+                    }
+                ],
+                "change": 15.4
+            }
+        }
+    },
+    {
+        "name": "Black Witch *Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 104.5,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 2950437,
+                        "time": "2019-01-23T22:05:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 2529633,
+                        "time": "2019-01-24T15:13:21Z"
+                    }
+                ],
+                "change": -14.3
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 2950437,
+                        "time": "2019-01-23T22:05:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 2529633,
+                        "time": "2019-01-24T15:13:21Z"
+                    }
+                ],
+                "change": -14.3
+            },
+            "latest": 2529633,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 2950437,
+                        "time": "2019-01-23T22:05:15Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 2529633,
+                        "time": "2019-01-24T15:13:21Z"
+                    }
+                ],
+                "change": -14.3
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5497142,
+                        "time": "2019-01-25T02:22:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5658553,
+                        "time": "2019-01-26T21:08:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5869949,
+                        "time": "2019-01-27T22:23:09Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5155876,
+                        "time": "2019-01-28T18:45:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5306415,
+                        "time": "2019-01-29T21:50:05Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5173015,
+                        "time": "2019-01-30T22:35:50Z"
+                    }
+                ],
+                "change": -5.9
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5497142,
+                        "time": "2019-01-25T02:22:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5658553,
+                        "time": "2019-01-26T21:08:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5869949,
+                        "time": "2019-01-27T22:23:09Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5155876,
+                        "time": "2019-01-28T18:45:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5306415,
+                        "time": "2019-01-29T21:50:05Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5173015,
+                        "time": "2019-01-30T22:35:50Z"
+                    }
+                ],
+                "change": -5.9
+            },
+            "latest": 5173015,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 5497142,
+                        "time": "2019-01-25T02:22:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5658553,
+                        "time": "2019-01-26T21:08:00Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5869949,
+                        "time": "2019-01-27T22:23:09Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5155876,
+                        "time": "2019-01-28T18:45:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5306415,
+                        "time": "2019-01-29T21:50:05Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 5173015,
+                        "time": "2019-01-30T22:35:50Z"
+                    }
+                ],
+                "change": -5.9
+            }
+        }
+    },
+    {
+        "name": "Black Witch Card",
+        "type": 0,
+        "image": null,
+        "global_sea_diff": 8.2,
+        "global": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 538126,
+                        "time": "2019-01-24T15:16:48Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 493249,
+                        "time": "2019-01-25T15:26:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 502678,
+                        "time": "2019-01-26T16:10:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 474872,
+                        "time": "2019-01-27T16:20:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 468348,
+                        "time": "2019-01-28T16:14:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 424014,
+                        "time": "2019-01-29T18:44:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 487095,
+                        "time": "2019-01-30T16:49:06Z"
+                    }
+                ],
+                "change": -9.5
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 433121,
+                        "time": "2019-01-23T22:11:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 538126,
+                        "time": "2019-01-24T15:16:48Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 493249,
+                        "time": "2019-01-25T15:26:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 502678,
+                        "time": "2019-01-26T16:10:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 474872,
+                        "time": "2019-01-27T16:20:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 468348,
+                        "time": "2019-01-28T16:14:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 424014,
+                        "time": "2019-01-29T18:44:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 487095,
+                        "time": "2019-01-30T16:49:06Z"
+                    }
+                ],
+                "change": 12.5
+            },
+            "latest": 487095,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 433121,
+                        "time": "2019-01-23T22:11:37Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 538126,
+                        "time": "2019-01-24T15:16:48Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 493249,
+                        "time": "2019-01-25T15:26:19Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 502678,
+                        "time": "2019-01-26T16:10:33Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 474872,
+                        "time": "2019-01-27T16:20:42Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 468348,
+                        "time": "2019-01-28T16:14:55Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 424014,
+                        "time": "2019-01-29T18:44:54Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 487095,
+                        "time": "2019-01-30T16:49:06Z"
+                    }
+                ],
+                "change": 12.5
+            }
+        },
+        "sea": {
+            "week": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 475916,
+                        "time": "2019-01-25T02:38:23Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 497188,
+                        "time": "2019-01-26T21:13:16Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 511607,
+                        "time": "2019-01-27T22:37:08Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 511671,
+                        "time": "2019-01-28T18:53:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 531429,
+                        "time": "2019-01-29T22:21:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 527279,
+                        "time": "2019-01-30T22:59:42Z"
+                    }
+                ],
+                "change": 10.8
+            },
+            "all": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 475916,
+                        "time": "2019-01-25T02:38:23Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 497188,
+                        "time": "2019-01-26T21:13:16Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 511607,
+                        "time": "2019-01-27T22:37:08Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 511671,
+                        "time": "2019-01-28T18:53:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 531429,
+                        "time": "2019-01-29T22:21:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 527279,
+                        "time": "2019-01-30T22:59:42Z"
+                    }
+                ],
+                "change": 10.8
+            },
+            "latest": 527279,
+            "month": {
+                "data": [
+                    {
+                        "snap": false,
+                        "price": 475916,
+                        "time": "2019-01-25T02:38:23Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 497188,
+                        "time": "2019-01-26T21:13:16Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 511607,
+                        "time": "2019-01-27T22:37:08Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 511671,
+                        "time": "2019-01-28T18:53:10Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 531429,
+                        "time": "2019-01-29T22:21:53Z"
+                    },
+                    {
+                        "snap": false,
+                        "price": 527279,
+                        "time": "2019-01-30T22:59:42Z"
+                    }
+                ],
+                "change": 10.8
+            }
+        }
+    }
+]

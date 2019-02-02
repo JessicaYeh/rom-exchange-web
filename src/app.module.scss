@@ -1,0 +1,56 @@
+.app {
+    margin-top: 72px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .app {
+        margin-top: 64px;
+    }
+}
+
+.toolbar {
+    justify-content: center;
+}
+
+.search {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-right: 8px;
+    width: 175px;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+}
+
+.search-icon {
+    width: 32px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-root {
+    width: 100%;
+}
+
+.search-input {
+    padding-left: 32px !important;
+    padding-right: 8px !important;
+}
+
+.select {
+    margin: 0 8px !important;
+}
+
+.progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

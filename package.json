@@ -1,0 +1,158 @@
+{
+  "name": "rom-exchange",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://www.romexchange.com",
+  "dependencies": {
+    "@babel/core": "7.1.0",
+    "@material-ui/core": "^3.9.1",
+    "@material-ui/icons": "^3.0.2",
+    "@svgr/webpack": "2.4.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "9.0.0",
+    "babel-jest": "23.6.0",
+    "babel-loader": "8.0.4",
+    "babel-plugin-named-asset-import": "^0.2.0",
+    "babel-preset-react-app": "^5.0.0",
+    "bfj": "6.1.1",
+    "case-sensitive-paths-webpack-plugin": "2.1.2",
+    "chalk": "2.4.1",
+    "chart.js": "^2.7.3",
+    "css-loader": "1.0.0",
+    "dotenv": "6.0.0",
+    "dotenv-expand": "4.2.0",
+    "eslint": "5.6.0",
+    "eslint-config-react-app": "^3.0.0",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-flowtype": "2.50.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.1",
+    "file-loader": "2.0.0",
+    "firebase": "^5.7.0",
+    "fork-ts-checker-webpack-plugin": "0.4.9",
+    "fs-extra": "7.0.0",
+    "html-webpack-plugin": "4.0.0-alpha.2",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "23.6.0",
+    "lodash": "^4.17.11",
+    "mini-css-extract-plugin": "0.4.3",
+    "mobx": "^5.6.0",
+    "mobx-react": "^5.4.2",
+    "moment": "^2.24.0",
+    "node-sass-chokidar": "^1.3.4",
+    "optimize-css-assets-webpack-plugin": "5.0.1",
+    "postcss-flexbugs-fixes": "4.1.0",
+    "postcss-loader": "3.0.0",
+    "postcss-preset-env": "6.0.6",
+    "postcss-safe-parser": "4.0.1",
+    "query-string": "^6.2.0",
+    "react": "^16.6.3",
+    "react-app-polyfill": "^0.1.1",
+    "react-autobind": "^1.0.6",
+    "react-chartjs-2": "^2.7.4",
+    "react-dev-utils": "^6.0.1",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "resolve": "1.8.1",
+    "sass-loader": "7.1.0",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "0.23.0",
+    "terser-webpack-plugin": "1.1.0",
+    "thread-loader": "1.2.0",
+    "ts-jest": "22.0.1",
+    "ts-loader": "4.x.x",
+    "tsconfig-paths-webpack-plugin": "^2.0.0",
+    "tslint": "^5.7.0",
+    "tslint-config-prettier": "^1.10.0",
+    "tslint-react": "^3.2.0",
+    "url-loader": "1.1.1",
+    "uuid": "^3.3.2",
+    "webpack": "4.19.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-manifest-plugin": "2.0.4",
+    "workbox-webpack-plugin": "3.6.1",
+    "worker-loader": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.7.42",
+    "@types/jest": "^23.3.9",
+    "@types/lodash": "^4.14.118",
+    "@types/node": "^10.12.10",
+    "@types/query-string": "^6.1.1",
+    "@types/react": "^16.7.7",
+    "@types/react-chartjs-2": "^2.5.7",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/uuid": "^3.4.4",
+    "@types/webpack": "^4.4.19",
+    "typescript": "^3.1.6"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!**/*.d.ts"
+    ],
+    "setupFiles": [
+      "react-app-polyfill/jsdom"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.(j|t)s?(x)",
+      "<rootDir>/src/**/?(*.)(spec|test).(j|t)s?(x)"
+    ],
+    "testEnvironment": "jsdom",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.tsx?$": "<rootDir>/config/jest/typescriptTransform.js",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web",
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "C:\\Users\\jessi\\Documents\\hashpass-react\\tsconfig.test.json"
+      }
+    },
+    "moduleFileExtensions": [
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "web.js",
+      "js",
+      "web.jsx",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

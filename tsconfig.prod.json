@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  "rules": {
+    "no-console": true
+  }
+}

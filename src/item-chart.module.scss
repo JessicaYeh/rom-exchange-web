@@ -1,0 +1,63 @@
+@import "color";
+
+.item-chart {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 8px;
+    padding: 16px 10px;
+    margin: 8px;
+    background-color: white;
+}
+
+.item-name {
+    width: 280px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.server {
+    margin: 0 0 12px 0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.server-name {
+    display: inline-block;
+    text-align: right;
+    width: 75px;
+}
+
+.server-price {
+    display: inline-block;
+    text-align: right;
+    width: 140px;
+}
+
+.server-change {
+    display: inline-block;
+    min-width: 55px;
+    text-align: center;
+    background-color: $gray;
+    color: white;
+    padding: 4px;
+    margin: 0 8px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.increase {
+    background-color: $green;
+}
+
+.decrease {
+    background-color: $red;
+}
+
+.global {
+    color: $dark-green;
+}
+
+.sea {
+    color: $dark-blue;
+}
