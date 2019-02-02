@@ -1,6 +1,7 @@
 import { observable } from 'mobx';
 import { observer } from 'mobx-react';
 import * as React from 'react';
+import * as qs from 'query-string';
 const autobind = require('react-autobind');
 
 import {
@@ -72,7 +73,15 @@ class App extends React.Component<any, AppState> {
   }
 
   componentWillMount() {
-    this.getData(this.state.itemName, this.state.sortOptions);
+    const location = this.props.location;
+    let queryName = "";
+    if (location && location.search) {
+      const queryParams = qs.parse(location.search);
+      queryName = queryParams["q"] as string || "";
+      this.setState({ itemName: queryName });
+    }
+
+    this.getData(queryName, this.state.sortOptions);
   }
 
   componentDidMount() {
@@ -181,6 +190,8 @@ class App extends React.Component<any, AppState> {
 
   private searchByName(itemName: string, delay: number = 500) {
     this.setState({ itemName });
+    const history = this.props.history;
+    history.push(itemName ? `?q=${itemName}` : "");
 
     if (this.typingDelay) {
       clearTimeout(this.typingDelay);
