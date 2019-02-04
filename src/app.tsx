@@ -181,8 +181,7 @@ class App extends React.Component<any, AppState> {
 
   private onScroll() {
     const wrappedElement = document.getElementById('app') as HTMLElement;
-    const atBottom = wrappedElement.getBoundingClientRect().bottom <= window.innerHeight;
-    // this.setState({ atBottom });
+    const atBottom = wrappedElement.getBoundingClientRect().bottom - 500 <= window.innerHeight;
     if (atBottom) {
       this.insertOnDeckItems();
     }
