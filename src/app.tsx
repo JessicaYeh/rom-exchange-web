@@ -163,8 +163,8 @@ class App extends React.Component<any, AppState> {
               >
                 <MenuItem value={Sort.Change+Direction.Desc}>Price change ↑</MenuItem>
                 <MenuItem value={Sort.Change+Direction.Asc}>Price change ↓</MenuItem>
-                <MenuItem value={Sort.Diff+Direction.Desc}>Server diff ↑</MenuItem>
-                <MenuItem value={Sort.Diff+Direction.Asc}>Server diff ↓</MenuItem>
+                <MenuItem value={Sort.Diff+Direction.Asc}>Global > SEA</MenuItem>
+                <MenuItem value={Sort.Diff+Direction.Desc}>SEA > Global</MenuItem>
               </Select>
             </FormControl>
           </Toolbar>
