@@ -55,6 +55,7 @@ class App extends React.Component<any, AppState> {
     server: Server.Both
   };
   private typingDelay: NodeJS.Timeout;
+  private searchRef: React.RefObject<HTMLInputElement> = React.createRef();
 
   constructor(props: any) {
     super(props);
@@ -86,10 +87,12 @@ class App extends React.Component<any, AppState> {
 
   componentDidMount() {
     document.addEventListener('scroll', this.onScroll);
+    window.addEventListener('blur', this.onWindowBlur);
   }
 
   componentWillUnmount() {
     document.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('blur', this.onWindowBlur);
   }
 
   render() {
@@ -109,7 +112,8 @@ class App extends React.Component<any, AppState> {
                 }}
                 value={this.state.itemName}
                 onChange={this.onSearchChange}
-                onFocus={this.onSearchFocus} />
+                onFocus={this.onSearchFocus}
+                inputRef={this.searchRef} />
             </div>
             <FormControl className={styles["select"]}>
               <InputLabel shrink={true} htmlFor="range-select">
@@ -184,6 +188,12 @@ class App extends React.Component<any, AppState> {
     const atBottom = wrappedElement.getBoundingClientRect().bottom - 500 <= window.innerHeight;
     if (atBottom) {
       this.insertOnDeckItems();
+    }
+  }
+
+  private onWindowBlur() {
+    if (this.searchRef.current) {
+      this.searchRef.current.blur();
     }
   }
 
