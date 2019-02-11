@@ -200,7 +200,7 @@ class App extends React.Component<any, AppState> {
   private searchByName(itemName: string, delay: number = 500) {
     this.setState({ itemName });
     const history = this.props.history;
-    history.push(itemName ? `?q=${itemName}` : "");
+    history.replace(itemName ? `?q=${itemName}` : "");
 
     if (this.typingDelay) {
       clearTimeout(this.typingDelay);
