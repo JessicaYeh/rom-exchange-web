@@ -24,6 +24,37 @@ export enum Range {
   Week = "Week"
 }
 
+export enum ItemType {
+  "All" = 0,
+  "Weapons" = 1,
+  "Off-hand" = 2,
+  "Armors" = 3,
+  "Garments" = 4,
+  "Footgears" = 5,
+  "Accessory" = 6,
+  "Blueprint" = 7,
+  "Potion / Effect" = 8,
+  "Refine" = 9,
+  "Scroll / Album" = 10,
+  "Material" = 11,
+  "Holiday material" = 12,
+  "Pet material" = 13,
+  "Premium" = 14,
+  "Costume" = 15,
+  "Head" = 16,
+  "Face" = 17,
+  "Back" = 18,
+  "Mouth" = 19,
+  "Tail" = 20,
+  "Weapon card" = 21,
+  "Off-hand card" = 22,
+  "Armor card" = 23,
+  "Garments card" = 24,
+  "Shoe card" = 25,
+  "Accessory card" = 26,
+  "Headwear card" = 27
+}
+
 export interface SortOptions {
   sort: Sort;
   direction: Direction;
@@ -33,7 +64,7 @@ export interface SortOptions {
 
 export interface QueryOptions {
   item?: string;
-  type?: number;
+  type?: ItemType;
   sort?: SortOptions;
   page?: number;
 }

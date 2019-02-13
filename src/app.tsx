@@ -17,7 +17,7 @@ import {
 import SearchIcon from '@material-ui/icons/Search';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
-import { API, Range, Server, Sort, Direction, SortOptions } from './api';
+import { API, Range, Server, Sort, Direction, SortOptions, ItemType } from './api';
 import { ItemChart } from './item-chart';
 import { ItemData } from './item-data';
 
@@ -40,6 +40,7 @@ const theme = createMuiTheme({
 
 interface AppState {
   itemName: string;
+  itemType: ItemType;
   sortOptions: SortOptions;
   loading: boolean;
 }
@@ -63,6 +64,7 @@ class App extends React.Component<any, AppState> {
     autobind(this);
     this.state = {
       itemName: "",
+      itemType: ItemType.All,
       sortOptions: {
         range: Range.Week,
         server: Server.Both,
@@ -82,7 +84,7 @@ class App extends React.Component<any, AppState> {
       this.setState({ itemName: queryName });
     }
 
-    this.getData(queryName, this.state.sortOptions);
+    this.getData(queryName, this.state.itemType, this.state.sortOptions);
   }
 
   componentDidMount() {
@@ -115,6 +117,25 @@ class App extends React.Component<any, AppState> {
                 onFocus={this.onSearchFocus}
                 inputRef={this.searchRef} />
             </div>
+            <FormControl className={styles["select"]}>
+              <InputLabel shrink={true} htmlFor="type-select">
+                Type
+              </InputLabel>
+              <Select
+                value={this.state.itemType}
+                onChange={this.onTypeChange}
+                inputProps={{
+                  name: "type",
+                  id: "type-select"
+                }}
+              >
+                {
+                  Object.keys(ItemType).filter(key => !isNaN(Number(ItemType[key]))).map((type) => {
+                    return <MenuItem key={type} value={ItemType[type]}>{type}</MenuItem>;
+                  })
+                }
+              </Select>
+            </FormControl>
             <FormControl className={styles["select"]}>
               <InputLabel shrink={true} htmlFor="range-select">
                 Time
@@ -206,7 +227,7 @@ class App extends React.Component<any, AppState> {
       clearTimeout(this.typingDelay);
     }
     this.typingDelay = setTimeout(() => {
-      this.getData(itemName, this.state.sortOptions);
+      this.getData(itemName, this.state.itemType, this.state.sortOptions);
     }, delay);
   }
 
@@ -227,7 +248,13 @@ class App extends React.Component<any, AppState> {
       range: Range[event.target.value],
     };
     this.setState({ sortOptions });
-    this.getData(this.state.itemName, sortOptions);
+    this.getData(this.state.itemName, this.state.itemType, sortOptions);
+  }
+
+  private onTypeChange(event: React.ChangeEvent<HTMLSelectElement>) {
+    const itemType = parseInt(event.target.value, 10);
+    this.setState({ itemType });
+    this.getData(this.state.itemName, itemType, this.state.sortOptions);
   }
 
   private onServerChange(event: React.ChangeEvent<HTMLSelectElement>) {
@@ -236,7 +263,7 @@ class App extends React.Component<any, AppState> {
       server: Server[event.target.value],
     };
     this.setState({ sortOptions });
-    this.getData(this.state.itemName, sortOptions);
+    this.getData(this.state.itemName, this.state.itemType, sortOptions);
   }
 
   private onSortChange(event: React.ChangeEvent<HTMLSelectElement>) {
@@ -248,15 +275,15 @@ class App extends React.Component<any, AppState> {
       direction: Direction[sortParts[1]],
     };
     this.setState({ sortOptions });
-    this.getData(this.state.itemName, sortOptions);
+    this.getData(this.state.itemName, this.state.itemType, sortOptions);
   }
 
-  private getData(item: string, sort: SortOptions) {
+  private getData(item: string, type: ItemType, sort: SortOptions) {
     this.setState({ loading: true });
 
     this.page = 1;
     this.onDeckItems = [];
-    API.getData({ item, sort, page: this.page }, (items) => {
+    API.getData({ item, type, sort, page: this.page }, (items) => {
       this.setState({ loading: false });
       this.items = []; // Need to first clear out array due to bug in chart.js, crashes in some cases
       this.chartOptions = {
@@ -264,13 +291,13 @@ class App extends React.Component<any, AppState> {
         server: this.state.sortOptions.server
       };
       this.items = items;
-      this.getOnDeckData(item, sort);
+      this.getOnDeckData(item, type, sort);
     });
   }
 
-  private getOnDeckData(item: string, sort: SortOptions) {
+  private getOnDeckData(item: string, type: ItemType, sort: SortOptions) {
     this.page++;
-    API.getData({ item, sort, page: this.page }, (onDeckItems) => {
+    API.getData({ item, type, sort, page: this.page }, (onDeckItems) => {
       this.onDeckItems = onDeckItems;
     });
   }
@@ -279,7 +306,7 @@ class App extends React.Component<any, AppState> {
     if (this.onDeckItems.length > 0) {
       this.items = this.items.concat(this.onDeckItems);
       this.onDeckItems = [];
-      this.getOnDeckData(this.state.itemName, this.state.sortOptions);
+      this.getOnDeckData(this.state.itemName, this.state.itemType, this.state.sortOptions);
     }
   }
 
