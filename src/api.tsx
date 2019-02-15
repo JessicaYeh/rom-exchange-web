@@ -75,6 +75,7 @@ export class API {
       request({
         uri: 'https://www.romexchange.com/api',
         qs: {
+          exact: false,
           item: query.item,
           type: query.type,
           page: query.page,
