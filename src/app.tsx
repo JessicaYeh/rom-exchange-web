@@ -204,6 +204,10 @@ class App extends React.Component<any, AppState> {
     });
   }
 
+  private scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+
   private onScroll() {
     const wrappedElement = document.getElementById('app') as HTMLElement;
     const atBottom = wrappedElement.getBoundingClientRect().bottom - 500 <= window.innerHeight;
@@ -284,6 +288,7 @@ class App extends React.Component<any, AppState> {
     this.page = 1;
     this.onDeckItems = [];
     API.getData({ item, type, sort, page: this.page }, (items) => {
+      this.scrollToTop();
       this.setState({ loading: false });
       this.items = []; // Need to first clear out array due to bug in chart.js, crashes in some cases
       this.chartOptions = {
