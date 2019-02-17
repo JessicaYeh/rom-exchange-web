@@ -193,7 +193,12 @@ class App extends React.Component<any, AppState> {
         <div className={styles["progress"]} hidden={!this.state.loading}>
           <CircularProgress color="secondary" />
         </div>
-        <div id="app" className={styles["app"]}>{this.renderItemCharts()}</div>
+        <div id="app" className={styles["app"]}>
+          <div className={styles["notice"]}>
+            <a href="https://jessicayeh.github.io/rom-exchange-openapi/" target="_blank">ROM Exchange Public API Docs</a>
+          </div>
+          {this.renderItemCharts()}
+        </div>
       </MuiThemeProvider>
     );
   }

@@ -102,7 +102,7 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
   }
 
   render() {
-    return <div className={styles["item-chart"]}>
+    return <div className={styles["card"]}>
       <p className={styles["item-name"]}>{this.props.data.name.replace("*", "★")}</p>
       { this.props.server !== Server.SEA ? this.renderServerPriceAndChange(Server.Global) : null }
       { this.props.server !== Server.Global ? this.renderServerPriceAndChange(Server.SEA) : null }

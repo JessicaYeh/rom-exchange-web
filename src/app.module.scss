@@ -1,11 +1,13 @@
+@import "index";
+
 .app {
-    margin-top: 72px;
+    margin-top: 80px;
     text-align: center;
 }
 
 @media (max-width: 600px) {
     .app {
-        margin-top: 64px;
+        margin-top: 72px;
     }
 }
 
@@ -46,6 +48,15 @@
 
 .select {
     margin: 0 8px !important;
+}
+
+.notice {
+    @extend .card;
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #cfd8dc;
 }
 
 .progress {

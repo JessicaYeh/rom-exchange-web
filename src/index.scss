@@ -8,3 +8,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #eceff1;
 }
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 8px;
+  padding: 16px 10px;
+  margin: 8px;
+  background-color: white;
+}
+
+a {
+  &:link {
+    color: #006064;
+  }
+
+  &:visited {
+    color: #006064;
+  }
+
+  &:hover {
+    color: #0097a7;
+  }
+
+  &:active {
+    color: #0097a7;
+  }
+}
