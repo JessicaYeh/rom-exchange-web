@@ -193,7 +193,12 @@ class App extends React.Component<any, AppState> {
         <div className={styles["progress"]} hidden={!this.state.loading}>
           <CircularProgress color="secondary" />
         </div>
-        <div id="app" className={styles["app"]}>{this.renderItemCharts()}</div>
+        <div id="app" className={styles["app"]}>
+          <div className={styles["notice"]}>
+            <a href="https://jessicayeh.github.io/rom-exchange-openapi/" target="_blank">ROM Exchange Public API Docs</a>
+          </div>
+          {this.renderItemCharts()}
+        </div>
       </MuiThemeProvider>
     );
   }
@@ -202,6 +207,10 @@ class App extends React.Component<any, AppState> {
     return this.items.map((item, i) => {
       return <ItemChart key={i} data={item} range={this.chartOptions.range} server={this.chartOptions.server} />;
     });
+  }
+
+  private scrollToTop() {
+    window.scrollTo(0, 0);
   }
 
   private onScroll() {
@@ -284,6 +293,7 @@ class App extends React.Component<any, AppState> {
     this.page = 1;
     this.onDeckItems = [];
     API.getData({ item, type, sort, page: this.page }, (items) => {
+      this.scrollToTop();
       this.setState({ loading: false });
       this.items = []; // Need to first clear out array due to bug in chart.js, crashes in some cases
       this.chartOptions = {
