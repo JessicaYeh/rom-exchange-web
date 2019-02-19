@@ -58,6 +58,27 @@ class App extends React.Component<any, AppState> {
   private typingDelay: NodeJS.Timeout;
   private searchRef: React.RefObject<HTMLInputElement> = React.createRef();
 
+  get searchQueryParam(): string {
+    const location = this.props.location;
+    let queryParam = "";
+    if (location && location.search) {
+      const queryParams = qs.parse(location.search);
+      queryParam = queryParams["q"] as string || "";
+    }
+    return queryParam;
+  }
+
+  get exactQueryParam(): boolean {
+    const location = this.props.location;
+    let exact = false;
+    if (location && location.search) {
+      const queryParams = qs.parse(location.search);
+      const queryParam = (queryParams["exact"] as string || "").toLowerCase();
+      exact = queryParam === "true" || queryParam === "1";
+    }
+    return exact;
+  }
+
   constructor(props: any) {
     super(props);
 
@@ -76,15 +97,9 @@ class App extends React.Component<any, AppState> {
   }
 
   componentWillMount() {
-    const location = this.props.location;
-    let queryName = "";
-    if (location && location.search) {
-      const queryParams = qs.parse(location.search);
-      queryName = queryParams["q"] as string || "";
-      this.setState({ itemName: queryName });
-    }
-
-    this.getData(queryName, this.state.itemType, this.state.sortOptions);
+    const itemName = this.searchQueryParam;
+    this.setState({ itemName });
+    this.getData(itemName, this.state.itemType, this.state.sortOptions, this.exactQueryParam);
   }
 
   componentDidMount() {
@@ -236,7 +251,7 @@ class App extends React.Component<any, AppState> {
       clearTimeout(this.typingDelay);
     }
     this.typingDelay = setTimeout(() => {
-      this.getData(itemName, this.state.itemType, this.state.sortOptions);
+      this.getData(itemName, this.state.itemType, this.state.sortOptions, this.exactQueryParam);
     }, delay);
   }
 
@@ -257,13 +272,13 @@ class App extends React.Component<any, AppState> {
       range: Range[event.target.value],
     };
     this.setState({ sortOptions });
-    this.getData(this.state.itemName, this.state.itemType, sortOptions);
+    this.getData(this.state.itemName, this.state.itemType, sortOptions, this.exactQueryParam);
   }
 
   private onTypeChange(event: React.ChangeEvent<HTMLSelectElement>) {
     const itemType = parseInt(event.target.value, 10);
     this.setState({ itemType });
-    this.getData(this.state.itemName, itemType, this.state.sortOptions);
+    this.getData(this.state.itemName, itemType, this.state.sortOptions, this.exactQueryParam);
   }
 
   private onServerChange(event: React.ChangeEvent<HTMLSelectElement>) {
@@ -272,7 +287,7 @@ class App extends React.Component<any, AppState> {
       server: Server[event.target.value],
     };
     this.setState({ sortOptions });
-    this.getData(this.state.itemName, this.state.itemType, sortOptions);
+    this.getData(this.state.itemName, this.state.itemType, sortOptions, this.exactQueryParam);
   }
 
   private onSortChange(event: React.ChangeEvent<HTMLSelectElement>) {
@@ -284,15 +299,15 @@ class App extends React.Component<any, AppState> {
       direction: Direction[sortParts[1]],
     };
     this.setState({ sortOptions });
-    this.getData(this.state.itemName, this.state.itemType, sortOptions);
+    this.getData(this.state.itemName, this.state.itemType, sortOptions, this.exactQueryParam);
   }
 
-  private getData(item: string, type: ItemType, sort: SortOptions) {
+  private getData(item: string, type: ItemType, sort: SortOptions, exact: boolean) {
     this.setState({ loading: true });
 
     this.page = 1;
     this.onDeckItems = [];
-    API.getData({ item, type, sort, page: this.page }, (items) => {
+    API.getData({ item, type, sort, page: this.page, exact }, (items) => {
       this.scrollToTop();
       this.setState({ loading: false });
       this.items = []; // Need to first clear out array due to bug in chart.js, crashes in some cases
@@ -301,13 +316,13 @@ class App extends React.Component<any, AppState> {
         server: this.state.sortOptions.server
       };
       this.items = items;
-      this.getOnDeckData(item, type, sort);
+      this.getOnDeckData(item, type, sort, exact);
     });
   }
 
-  private getOnDeckData(item: string, type: ItemType, sort: SortOptions) {
+  private getOnDeckData(item: string, type: ItemType, sort: SortOptions, exact: boolean) {
     this.page++;
-    API.getData({ item, type, sort, page: this.page }, (onDeckItems) => {
+    API.getData({ item, type, sort, page: this.page, exact }, (onDeckItems) => {
       this.onDeckItems = onDeckItems;
     });
   }
@@ -316,7 +331,7 @@ class App extends React.Component<any, AppState> {
     if (this.onDeckItems.length > 0) {
       this.items = this.items.concat(this.onDeckItems);
       this.onDeckItems = [];
-      this.getOnDeckData(this.state.itemName, this.state.itemType, this.state.sortOptions);
+      this.getOnDeckData(this.state.itemName, this.state.itemType, this.state.sortOptions, this.exactQueryParam);
     }
   }
 
