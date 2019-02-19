@@ -210,7 +210,7 @@ class App extends React.Component<any, AppState> {
         return <ItemChart key={i} data={item} range={this.chartOptions.range} server={this.chartOptions.server} />;
       });
     } else {
-      return <span>We dont have : {itemName} about {ItemType[itemType]} type.</span>;
+      return <span>No results found for "{itemName}" under the {ItemType[itemType]} type.</span>;
     }    
   }
 
