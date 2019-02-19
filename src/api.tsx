@@ -130,8 +130,11 @@ export class API {
   }
 
   private static parseDataPointJSON(dataPointJSON: {}): DataPoint {
+    const localTime = new Date(dataPointJSON['time']);
+    const utcTime = new Date(localTime.getTime() + localTime.getTimezoneOffset()*60000);
+
     return {
-      time: new Date(dataPointJSON['time']),
+      time: utcTime,
       price: dataPointJSON['price'],
       snap: dataPointJSON['snap']
     };
