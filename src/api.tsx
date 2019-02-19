@@ -67,6 +67,7 @@ export interface QueryOptions {
   type?: ItemType;
   sort?: SortOptions;
   page?: number;
+  exact?: boolean;
 }
 
 export class API {
@@ -75,7 +76,7 @@ export class API {
       request({
         uri: 'https://www.romexchange.com/api',
         qs: {
-          exact: false,
+          exact: query.exact,
           item: query.item,
           type: query.type,
           page: query.page,
