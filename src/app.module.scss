@@ -1,13 +1,14 @@
 @import "index";
 
 .app {
-    margin-top: 80px;
+    height: 100%;
+    margin-top: 72px;
     text-align: center;
 }
 
 @media (max-width: 600px) {
     .app {
-        margin-top: 72px;
+        margin-top: 64px;
     }
 }
 
@@ -50,18 +51,23 @@
     margin: 0 8px !important;
 }
 
-.notice {
-    @extend .card;
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #cfd8dc;
-}
-
 .progress {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.button-icon {
+    margin: 0 4px 0 0;
+}
+
+.message {
+    height: calc(100% - 100px);
+    font-size: 20px;
+    line-height: 26px;
+    color: #555;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }
