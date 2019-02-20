@@ -19,19 +19,13 @@ body {
 }
 
 a {
-  &:link {
+  fill: currentColor;
+
+  &:link, &:visited {
     color: #006064;
   }
 
-  &:visited {
-    color: #006064;
-  }
-
-  &:hover {
-    color: #0097a7;
-  }
-
-  &:active {
-    color: #0097a7;
+  &:hover, &:active {
+    color: #00838f;
   }
 }
