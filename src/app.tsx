@@ -237,15 +237,20 @@ class App extends React.Component<any, AppState> {
     );
   }
 
-  private renderItemCharts(): JSX.Element[] | JSX.Element {
+  private renderItemCharts(): JSX.Element[] | JSX.Element | null {
     const { itemName, itemType } = this.state;
-    if (itemName === "" || this.items.length > 0) {
+    if (this.items.length > 0) {
       return this.items.map((item, i) => {
         return <ItemChart key={i} data={item} range={this.chartOptions.range} server={this.chartOptions.server} />;
       });
+    } else if (!this.state.loading) {
+      const emptyMessage = (itemType === ItemType.All) ?
+        `No results found for "${itemName}".` :
+        `No results found for "${itemName}" under the "${ItemType[itemType]}" type.`;
+      return <div className={styles["message"]}>{emptyMessage}</div>;
     } else {
-      return <span>No results found for "{itemName}" under the {ItemType[itemType]} type.</span>;
-    }    
+      return null;
+    }
   }
 
   private scrollToTop() {
@@ -274,6 +279,8 @@ class App extends React.Component<any, AppState> {
     if (this.typingDelay) {
       clearTimeout(this.typingDelay);
     }
+
+    this.setState({ loading: true });
     this.typingDelay = setTimeout(() => {
       this.getData(itemName, this.state.itemType, this.state.sortOptions, this.exactQueryParam);
     }, delay);
