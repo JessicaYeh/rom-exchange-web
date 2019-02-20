@@ -218,10 +218,15 @@ class App extends React.Component<any, AppState> {
     );
   }
 
-  private renderItemCharts(): JSX.Element[] {
-    return this.items.map((item, i) => {
-      return <ItemChart key={i} data={item} range={this.chartOptions.range} server={this.chartOptions.server} />;
-    });
+  private renderItemCharts(): JSX.Element[] | JSX.Element {
+    const { itemName, itemType } = this.state;
+    if (itemName === "" || this.items.length > 0) {
+      return this.items.map((item, i) => {
+        return <ItemChart key={i} data={item} range={this.chartOptions.range} server={this.chartOptions.server} />;
+      });
+    } else {
+      return <span>No results found for "{itemName}" under the {ItemType[itemType]} type.</span>;
+    }    
   }
 
   private scrollToTop() {
