@@ -4,6 +4,11 @@
 
 All contributions are welcome! If you would like to contribute a feature, bug fix, or improvement, first open an [issue](https://github.com/JessicaYeh/rom-exchange-web/issues) that describes the change. Either you or someone else can implement the change. Submit a [pull request](https://github.com/JessicaYeh/rom-exchange-web/pulls) from the branch in your forked repo to the [develop](https://github.com/JessicaYeh/rom-exchange-web/tree/develop) branch of this repo. Your pull request must be reviewed and approved by the repo owner before merging.
 
+## Related Projects
+
+- Discord Bot - https://github.com/chklch/ROMExchangeBot
+- API Documentation - https://github.com/JessicaYeh/rom-exchange-openapi
+
 ## Prerequisites
 
 - NodeJS (includes NPM) - https://nodejs.org/en/download
