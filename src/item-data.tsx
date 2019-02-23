@@ -19,6 +19,11 @@ export interface RangeData {
     change: number;
 }
 
+export interface NameData {
+    name: string;
+    type: number;
+}
+
 export interface DataPoint {
     time: Date;
     price: number;

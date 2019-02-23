@@ -9,13 +9,17 @@ import {
   Button,
   CircularProgress,
   FormControl,
+  IconButton,
   InputBase,
   InputLabel,
   Select,
   Toolbar,
-  MenuItem
+  MenuItem,
+  Tooltip,
+  Modal
 } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
+import DashboardIcon from '@material-ui/icons/Dashboard';
 import BookIcon from '@material-ui/icons/LocalLibraryOutlined';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
@@ -24,6 +28,7 @@ import { ItemChart } from './item-chart';
 import { ItemData } from './item-data';
 
 import styles from './app.module.scss';
+import DashboardModal from './dashboard-modal';
 
 const theme = createMuiTheme({
   palette: {
@@ -45,6 +50,7 @@ interface AppState {
   itemType: ItemType;
   sortOptions: SortOptions;
   loading: boolean;
+  openDashboardModal: boolean;
 }
 
 @observer
@@ -94,7 +100,8 @@ class App extends React.Component<any, AppState> {
         sort: Sort.Change,
         direction: Direction.Desc
       },
-      loading: false
+      loading: false,
+      openDashboardModal: false
     };
   }
 
@@ -205,6 +212,11 @@ class App extends React.Component<any, AppState> {
                 <MenuItem value={Sort.Diff+Direction.Desc}>SEA > Global</MenuItem>
               </Select>
             </FormControl>
+            <Tooltip title="Create Dashboard">
+              <IconButton aria-label="Create Dashboard" onClick={this.openDashboardModal}>
+                <DashboardIcon />
+              </IconButton>
+            </Tooltip>
           </Toolbar>
         </AppBar>
         <div className={styles["progress"]} hidden={!this.state.loading}>
@@ -240,6 +252,9 @@ class App extends React.Component<any, AppState> {
               API Docs
             </Button>
           </div>
+          <Modal open={this.state.openDashboardModal} onClose={this.closeDashboardModal}>
+            <DashboardModal />   
+          </Modal>
           {this.renderItemCharts()}
         </div>
       </MuiThemeProvider>
@@ -373,6 +388,14 @@ class App extends React.Component<any, AppState> {
       this.onDeckItems = [];
       this.getOnDeckData(this.state.itemName, this.state.itemType, this.state.sortOptions, this.exactQueryParam);
     }
+  }
+
+  private openDashboardModal() {
+    this.setState({ openDashboardModal: true });
+  }
+
+  private closeDashboardModal() {
+    this.setState({ openDashboardModal: false });
   }
 
 }
