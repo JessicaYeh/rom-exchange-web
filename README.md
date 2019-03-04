@@ -2,7 +2,7 @@
 
 ## Contributing
 
-All contributions are welcome! If you would like to contribute a feature, bug fix, or improvement, first open an [issue](https://github.com/JessicaYeh/rom-exchange-web/issues) that describes the change. Either you or someone else can implement the change. Submit a [pull request](https://github.com/JessicaYeh/rom-exchange-web/pulls) from the branch in your forked repo to the [develop](https://github.com/JessicaYeh/rom-exchange-web/tree/develop) branch of this repo. Your pull request must be reviewed and approved by the repo owner before merging.
+All contributions are welcome! If you would like to contribute a feature, bug fix, or improvement, first open an [issue](https://github.com/JessicaYeh/rom-exchange-web/issues) that describes the change. Either you or someone else can implement the change. Submit a [pull request](https://github.com/JessicaYeh/rom-exchange-web/pulls) from the branch in your forked repo to the [develop](https://github.com/JessicaYeh/rom-exchange-web/tree/develop) branch of this repo. Your pull request must be reviewed and approved by the repo owner before merging. If your pull request includes UI changes, you __must include screenshots__!
 
 ## Related Projects
 
