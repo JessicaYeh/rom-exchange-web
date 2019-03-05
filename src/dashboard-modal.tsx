@@ -19,6 +19,7 @@ interface ModalState {
   showTooltip: boolean;
   showLimitWarning: boolean;
   firstIgnoredItem: string;
+  hasCreatedDashboard: boolean;
 }
 
 interface NameOption {
@@ -43,12 +44,13 @@ class DashboardModal extends React.Component<any, ModalState> {
     super(props);
     autobind(this);
     this.state = {
-      selectedOptions: null,
+      selectedOptions: [],
       loading: false,
       dashboardUrl: "",
       showTooltip: false,
       showLimitWarning: false,
-      firstIgnoredItem: ""
+      firstIgnoredItem: "",
+      hasCreatedDashboard: false
     };
   }
 
@@ -62,10 +64,31 @@ class DashboardModal extends React.Component<any, ModalState> {
     return (
       <div className={styles["dashboardModal"]} tabIndex={-1}>
         <h2>New Dashboard</h2>
-        <Select className={styles["nameSelect"]} placeholder="Add items for your dashboard" value={this.state.selectedOptions} onChange={this.handleChange} options={nameOptions} isMulti={true} styles={customSelectStyle} />
+        <Select className={styles["nameSelect"]} placeholder="Add items for your dashboard" value={this.state.selectedOptions} onChange={this.handleChange} options={nameOptions} isMulti={true} styles={customSelectStyle} autoFocus={true} />
+        {this.showCreateButton()}
+        {this.showDashboardUrl()}
+        <p className={styles["dashboardLimitWarning"]} hidden={!this.state.showLimitWarning}>Your dashboard exceeded the length limit. "{this.state.firstIgnoredItem}" and all following items were ignored.</p>
+        <div className={styles["progress"]} hidden={!this.state.loading}>
+          <CircularProgress color="secondary" />
+        </div>
+      </div> 
+    );
+  }
+
+  private showCreateButton() {
+    if (!this.state.hasCreatedDashboard) {
+      return (
         <Button onClick={this.createDashboardUrl} className={styles["createDashboardButton"]} variant="contained" color="primary">
           Create Dashboard
         </Button>
+      );
+    }
+    return null;
+  }
+
+  private showDashboardUrl() {
+    if (this.state.hasCreatedDashboard) {
+      return (
         <TextField
           variant="outlined"
           margin="normal"
@@ -102,16 +125,16 @@ class DashboardModal extends React.Component<any, ModalState> {
             }
           }}
         />
-        <p className={styles["dashboardLimitWarning"]} hidden={!this.state.showLimitWarning}>Your dashboard exceeded the length limit. "{this.state.firstIgnoredItem}" and all following items were ignored.</p>
-        <div className={styles["progress"]} hidden={!this.state.loading}>
-          <CircularProgress color="secondary" />
-        </div>
-      </div> 
-    );
+      );
+    }
+    return null;
   }
 
   private handleChange(selectedOptions: any) {
-    this.setState({ selectedOptions });
+    this.setState({
+      selectedOptions,
+      hasCreatedDashboard: false
+    });
   }
 
   private getNames() {
@@ -151,7 +174,8 @@ class DashboardModal extends React.Component<any, ModalState> {
     this.setState({
       dashboardUrl: url.substring(0, url.length - 3),
       showLimitWarning: hasBrokenLimit,
-      firstIgnoredItem
+      firstIgnoredItem,
+      hasCreatedDashboard: true
     });
   }
 
