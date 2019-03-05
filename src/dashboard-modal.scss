@@ -1,5 +1,7 @@
 @import "color";
 
+$inputWidth: 75%;
+
 .dashboardModal {
     background-color: whitesmoke;
     position: fixed;
@@ -16,12 +18,16 @@
 }
 
 .nameSelect {
-    width: 75%;
+    width: $inputWidth;
     z-index: 2;
 }
 
 .createDashboardButton {
     margin-top: 15px;
+}
+
+.dashboardUrlInput{
+    width: $inputWidth;
 }
 
 .dashboardUrl {

@@ -71,6 +71,7 @@ class DashboardModal extends React.Component<any, ModalState> {
           margin="normal"
           label="Dashboard URL"
           value={this.state.dashboardUrl}
+          className={styles["dashboardUrlInput"]}
           InputProps={{
             readOnly: true,
             classes: {
