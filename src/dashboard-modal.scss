@@ -1,3 +1,5 @@
+@import "color";
+
 .dashboardModal {
     background-color: whitesmoke;
     position: fixed;
@@ -25,4 +27,11 @@
     color: #263238 !important;
     border-color: #263238 !important;
     border-width: 2px !important;
+}
+
+.dashboardLimitWarning {
+    color: $red;
+    width: 90%;
+    text-align: center;
+    font-size: small;
 }

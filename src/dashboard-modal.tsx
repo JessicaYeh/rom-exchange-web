@@ -17,6 +17,8 @@ interface ModalState {
   loading: boolean;
   dashboardUrl: string;
   showTooltip: boolean;
+  showLimitWarning: boolean;
+  firstIgnoredItem: string;
 }
 
 interface NameOption {
@@ -25,6 +27,7 @@ interface NameOption {
 }
 
 let nameOptions: NameOption[] = [];
+const maxUrlSize = 2000;
 
 const customSelectStyle: Partial<Styles> = {
   valueContainer: (provided) => ({
@@ -43,7 +46,9 @@ class DashboardModal extends React.Component<any, ModalState> {
       selectedOptions: null,
       loading: false,
       dashboardUrl: "",
-      showTooltip: false
+      showTooltip: false,
+      showLimitWarning: false,
+      firstIgnoredItem: ""
     };
   }
 
@@ -96,6 +101,7 @@ class DashboardModal extends React.Component<any, ModalState> {
             }
           }}
         />
+        <p className={styles["dashboardLimitWarning"]} hidden={!this.state.showLimitWarning}>Your dashboard exceeded the length limit. "{this.state.firstIgnoredItem}" and all following items were ignored.</p>
         <div className={styles["progress"]} hidden={!this.state.loading}>
           <CircularProgress color="secondary" />
         </div>
@@ -127,10 +133,24 @@ class DashboardModal extends React.Component<any, ModalState> {
 
   private createDashboardUrl() {
     let url = window.location.origin + "?q=";
+    let hasBrokenLimit = false;
+    let firstIgnoredItem = "";
+
     for (const option of this.state.selectedOptions) {
-      url += option.value + "|";
+      if (url.length < (maxUrlSize - option.value.length)) {
+        url += option.value + "|";
+      } else {
+        hasBrokenLimit = true;
+        firstIgnoredItem = option.value;
+        break;
+      }
     }
-    this.setState({ dashboardUrl: url.substring(0, url.length - 1) });
+
+    this.setState({
+      dashboardUrl: url.substring(0, url.length - 1),
+      showLimitWarning: hasBrokenLimit,
+      firstIgnoredItem
+    });
   }
 
   private copyDashboardUrl() {
