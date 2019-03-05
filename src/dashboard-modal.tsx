@@ -60,7 +60,7 @@ class DashboardModal extends React.Component<any, ModalState> {
 
   render() {
     return (
-      <div className={styles["dashboardModal"]}>
+      <div className={styles["dashboardModal"]} tabIndex={-1}>
         <h2>New Dashboard</h2>
         <Select className={styles["nameSelect"]} placeholder="Add items for your dashboard" value={this.state.selectedOptions} onChange={this.handleChange} options={nameOptions} isMulti={true} styles={customSelectStyle} />
         <Button onClick={this.createDashboardUrl} className={styles["createDashboardButton"]} variant="contained" color="primary">
