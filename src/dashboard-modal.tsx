@@ -132,13 +132,14 @@ class DashboardModal extends React.Component<any, ModalState> {
   }
 
   private createDashboardUrl() {
-    let url = window.location.origin + "?q=";
+    let url = encodeURI(window.location.origin + "?q=");
     let hasBrokenLimit = false;
     let firstIgnoredItem = "";
 
     for (const option of this.state.selectedOptions) {
-      if (url.length < (maxUrlSize - option.value.length)) {
-        url += option.value + "|";
+      const encodedOption = encodeURI(option.value);
+      if (url.length <= (maxUrlSize - encodedOption.length)) {
+        url += encodedOption + encodeURI("|");
       } else {
         hasBrokenLimit = true;
         firstIgnoredItem = option.value;
@@ -147,7 +148,7 @@ class DashboardModal extends React.Component<any, ModalState> {
     }
 
     this.setState({
-      dashboardUrl: url.substring(0, url.length - 1),
+      dashboardUrl: url.substring(0, url.length - 3),
       showLimitWarning: hasBrokenLimit,
       firstIgnoredItem
     });
