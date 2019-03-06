@@ -161,7 +161,7 @@ class DashboardModal extends React.Component<DashboardModalProps, DashboardModal
     if (this.props.items) {
       selectedOptions = nameOptions.filter(nameOption => {
         return !!this.props.items.find(item => {
-          return nameOption.value.toUpperCase() === item.toUpperCase();
+          return nameOption.value === item.toUpperCase();
         });
       });
     }
@@ -171,7 +171,7 @@ class DashboardModal extends React.Component<DashboardModalProps, DashboardModal
   private parseNameData(namesData: NameData[]){
     return namesData.map(nameData => {
       const nameOption: NameOption = {
-        value: nameData.name,
+        value: nameData.name.toUpperCase(),
         label: nameData.name
       };
       return nameOption;
@@ -184,12 +184,12 @@ class DashboardModal extends React.Component<DashboardModalProps, DashboardModal
     let firstIgnoredItem = "";
 
     for (const option of this.state.selectedOptions) {
-      const encodedOption = encodeURI(option.value);
+      const encodedOption = encodeURI(option.label);
       if (url.length <= (maxUrlSize - encodedOption.length)) {
         url += encodedOption + encodeURI("|");
       } else {
         hasBrokenLimit = true;
-        firstIgnoredItem = option.value;
+        firstIgnoredItem = option.label;
         break;
       }
     }
