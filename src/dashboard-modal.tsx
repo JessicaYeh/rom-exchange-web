@@ -57,9 +57,10 @@ class DashboardModal extends React.Component<any, ModalState> {
 
   componentWillMount() {
     if (nameOptions.length === 0){
-      this.getNames();
+      this.getNames(() => this.fillSelectedOptions());
+    } else {
+      this.fillSelectedOptions();
     }
-    this.fillSelectedOptions();
   }
 
   render() {
@@ -139,10 +140,11 @@ class DashboardModal extends React.Component<any, ModalState> {
     });
   }
 
-  private getNames() {
+  private getNames(completion: (names: NameData[]) => void) {
     this.setState({ loading: true });
     API.getNames((names) => {
       nameOptions = this.parseNameData(names);
+      completion(names);
       this.setState({ loading: false });
     });
   }
@@ -150,7 +152,7 @@ class DashboardModal extends React.Component<any, ModalState> {
   private parseNameData(namesData: NameData[]){
     return namesData.map(nameData => {
       const nameOption: NameOption = {
-        value: nameData.name,
+        value: nameData.name.toUpperCase(),
         label: nameData.name
       };
       return nameOption;
@@ -163,10 +165,13 @@ class DashboardModal extends React.Component<any, ModalState> {
       const items = urlParams.q.split("|");
       const selectedOptions: NameOption[] = [];
       for (const item of items) {
-        selectedOptions.push({
-          value: item,
+        const nameOption: NameOption = {
+          value: item.toUpperCase(),
           label: item
-        });
+        };
+        if (this.containsOption(nameOption)) {
+          selectedOptions.push(nameOption);
+        }
       }
       this.setState({ selectedOptions });
     }
@@ -178,12 +183,12 @@ class DashboardModal extends React.Component<any, ModalState> {
     let firstIgnoredItem = "";
 
     for (const option of this.state.selectedOptions) {
-      const encodedOption = encodeURI(option.value);
+      const encodedOption = encodeURI(option.label);
       if (url.length <= (maxUrlSize - encodedOption.length)) {
         url += encodedOption + encodeURI("|");
       } else {
         hasBrokenLimit = true;
-        firstIgnoredItem = option.value;
+        firstIgnoredItem = option.label;
         break;
       }
     }
@@ -203,6 +208,15 @@ class DashboardModal extends React.Component<any, ModalState> {
 
   private closeTooltip() {
     this.setState({ showTooltip: false });
+  }
+
+  private containsOption(selectedOption: NameOption) {
+    for (const availableOption of nameOptions) {
+      if (availableOption.value === selectedOption.value) {
+        return true;
+      }
+    }
+    return false;
   }
 }
 
