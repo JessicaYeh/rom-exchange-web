@@ -61,7 +61,7 @@ class DashboardModal extends React.Component<DashboardModalProps, DashboardModal
 
   componentWillMount() {
     if (nameOptions.length === 0){
-      this.getNames();
+      this.getNames(() => { this.loadInitialItemsIntoSelect(); });
     } else {
       this.loadInitialItemsIntoSelect();
     }
@@ -145,12 +145,14 @@ class DashboardModal extends React.Component<DashboardModalProps, DashboardModal
     });
   }
 
-  private getNames() {
+  private getNames(completion?: (names: NameData[]) => void) {
     this.setState({ loading: true });
     API.getNames((names) => {
       nameOptions = this.parseNameData(names);
-      this.loadInitialItemsIntoSelect();
       this.setState({ loading: false });
+      if (completion) {
+        completion(names);
+      }
     });
   }
 
