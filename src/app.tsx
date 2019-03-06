@@ -101,6 +101,10 @@ class App extends React.Component<any, AppState> {
     return queryParam;
   }
 
+  get dashboardItems(): string[] {
+    return this.searchQueryParam.split("|");
+  }
+
   get exactQueryParam(): boolean {
     const location = this.props.location;
     let exact = false;
@@ -278,7 +282,7 @@ class App extends React.Component<any, AppState> {
             </Button>
           </div>
           <Modal open={this.state.openDashboardModal} onClose={this.closeDashboardModal}>
-            <DashboardModal />   
+            <DashboardModal items={this.dashboardItems} />   
           </Modal>
           {this.renderItemCharts()}
         </div>

@@ -12,8 +12,12 @@ import { NameData } from './item-data';
 import styles from './dashboard-modal.module.scss';
 import { Styles } from 'react-select/lib/styles';
 
-interface ModalState {
-  selectedOptions: any;
+interface DashboardModalProps {
+  items: string[];
+}
+
+interface DashboardModalState {
+  selectedOptions: NameOption[];
   loading: boolean;
   dashboardUrl: string;
   showTooltip: boolean;
@@ -39,8 +43,8 @@ const customSelectStyle: Partial<Styles> = {
 };
   
 @observer
-class DashboardModal extends React.Component<any, ModalState> {
-  constructor(props: any) {
+class DashboardModal extends React.Component<DashboardModalProps, DashboardModalState> {
+  constructor(props: DashboardModalProps) {
     super(props);
     autobind(this);
     this.state = {
@@ -57,6 +61,8 @@ class DashboardModal extends React.Component<any, ModalState> {
   componentWillMount() {
     if (nameOptions.length === 0){
       this.getNames();
+    } else {
+      this.loadInitialItemsIntoSelect();
     }
   }
 
@@ -142,8 +148,21 @@ class DashboardModal extends React.Component<any, ModalState> {
     this.setState({ loading: true });
     API.getNames((names) => {
       nameOptions = this.parseNameData(names);
+      this.loadInitialItemsIntoSelect();
       this.setState({ loading: false });
     });
+  }
+
+  private loadInitialItemsIntoSelect() {
+    let selectedOptions: NameOption[] = [];
+    if (this.props.items) {
+      selectedOptions = nameOptions.filter(nameOption => {
+        return !!this.props.items.find(item => {
+          return nameOption.value.toLowerCase() === item.toLowerCase();
+        });
+      });
+    }
+    this.setState({ selectedOptions });
   }
 
   private parseNameData(namesData: NameData[]){
