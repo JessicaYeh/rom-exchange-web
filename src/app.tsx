@@ -40,6 +40,31 @@ const theme = createMuiTheme({
       main: '#ff5722'
     }
   },
+  overrides: {
+    MuiButton: {
+      textPrimary: {
+        fill: 'currentColor',
+        color: '#006064',
+        '&:hover': {
+          color: '#00838f'
+        }
+      },
+      containedPrimary: {
+        backgroundColor: '#006064',
+        '&:hover': {
+          backgroundColor: '#00838f'
+        }
+      }
+    },
+    MuiIconButton: {
+      colorPrimary: {
+        fill: '#006064',
+        '&:hover': {
+          fill: '#00838f'
+        }
+      }
+    }
+  },
   typography: {
     useNextVariants: true,
   },
@@ -212,8 +237,8 @@ class App extends React.Component<any, AppState> {
                 <MenuItem value={Sort.Diff+Direction.Desc}>SEA > Global</MenuItem>
               </Select>
             </FormControl>
-            <Tooltip title="Create Dashboard">
-              <IconButton aria-label="Create Dashboard" onClick={this.openDashboardModal}>
+            <Tooltip title="My dashboard">
+              <IconButton className={styles["dashboard-icon"]} aria-label="My dashboard" onClick={this.openDashboardModal}>
                 <DashboardIcon />
               </IconButton>
             </Tooltip>
@@ -248,7 +273,7 @@ class App extends React.Component<any, AppState> {
               size="medium"
               href="https://jessicayeh.github.io/rom-exchange-openapi/"
               target="_blank">
-              <BookIcon className={styles["button-icon"]} />
+              <BookIcon />
               API Docs
             </Button>
           </div>

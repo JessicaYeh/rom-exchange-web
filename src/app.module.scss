@@ -1,5 +1,4 @@
 @import "index";
-@import "dashboard-modal";
 
 .app {
     margin-top: 72px;
@@ -9,6 +8,10 @@
 @media (max-width: 600px) {
     .app {
         margin-top: 64px;
+    }
+
+    .dashboard-icon {
+        padding: 6px !important;
     }
 }
 
@@ -58,10 +61,6 @@
     transform: translate(-50%, -50%);
 }
 
-.button-icon {
-    margin: 0 4px 0 0;
-}
-
 .message {
     position: fixed;
     top: 50%;
@@ -70,4 +69,8 @@
     font-size: 20px;
     line-height: 26px;
     color: #555;
+}
+
+.button-icon {
+    margin: 0 4px 0 0;
 }
