@@ -172,6 +172,7 @@ class DashboardModal extends React.Component<any, ModalState> {
     }
 
     this.setState({
+      // Removing extra encoded "|" from the url end
       dashboardUrl: url.substring(0, url.length - 3),
       showLimitWarning: hasBrokenLimit,
       firstIgnoredItem,
