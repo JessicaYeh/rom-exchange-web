@@ -18,14 +18,8 @@ body {
   background-color: white;
 }
 
-a {
-  fill: currentColor;
-
-  &:link, &:visited {
-    color: #006064;
-  }
-
-  &:hover, &:active {
-    color: #00838f;
-  }
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
 }
