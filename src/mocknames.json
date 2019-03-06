@@ -1,0 +1,706 @@
+[
+    {
+        "name": "Candle Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Gingerbread Man clip Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Swim Goggles Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Masquerade Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Hat [1] Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Honey Jar Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Sunglasses Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Whisper Card",
+        "type": 24
+    },
+    {
+        "name": "Small Ribbons [1] Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Yoyo Card",
+        "type": 26
+    },
+    {
+        "name": "Draco Card",
+        "type": 22
+    },
+    {
+        "name": "Sunglasses",
+        "type": 17
+    },
+    {
+        "name": "Sandman Card",
+        "type": 23
+    },
+    {
+        "name": "Picky Card",
+        "type": 23
+    },
+    {
+        "name": "Scell",
+        "type": 11
+    },
+    {
+        "name": "Bill Guisarme [1]",
+        "type": 1
+    },
+    {
+        "name": "Flutter Butterfly [1] Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Zipper Bear Card",
+        "type": 21
+    },
+    {
+        "name": "Poring Hat Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Zargon",
+        "type": 11
+    },
+    {
+        "name": "Mastela Fruit",
+        "type": 8
+    },
+    {
+        "name": "Greatest General Card",
+        "type": 26
+    },
+    {
+        "name": "Seed of Mastela",
+        "type": 11
+    },
+    {
+        "name": "Kitsune Mask",
+        "type": 16
+    },
+    {
+        "name": "Immortal Heart",
+        "type": 11
+    },
+    {
+        "name": "Steel",
+        "type": 11
+    },
+    {
+        "name": "Alarm Card",
+        "type": 25
+    },
+    {
+        "name": "Brilight Card",
+        "type": 23
+    },
+    {
+        "name": "Myst Case Card",
+        "type": 27
+    },
+    {
+        "name": "Dog Teeth",
+        "type": 11
+    },
+    {
+        "name": "Majestic Goat Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Scorpion Card",
+        "type": 26
+    },
+    {
+        "name": "Ghost Bandana Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Premium for novice",
+        "type": 14
+    },
+    {
+        "name": "Luciola Vespa Card",
+        "type": 22
+    },
+    {
+        "name": "Safety Helmet Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Grief for Greed",
+        "type": 16
+    },
+    {
+        "name": "Cap Of Blindness [1] Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Blush",
+        "type": 17
+    },
+    {
+        "name": "Queen's Hair Ornament",
+        "type": 16
+    },
+    {
+        "name": "Wanderer Card",
+        "type": 21
+    },
+    {
+        "name": "Pole Axe [1]",
+        "type": 1
+    },
+    {
+        "name": "Magnolia Hat [1]",
+        "type": 16
+    },
+    {
+        "name": "Holy Stick [1]",
+        "type": 1
+    },
+    {
+        "name": "Cutlus [1]",
+        "type": 1
+    },
+    {
+        "name": "Poison Knife [1]",
+        "type": 1
+    },
+    {
+        "name": "Cutlus [2]",
+        "type": 1
+    },
+    {
+        "name": "Angel Wing Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Tarou Card",
+        "type": 26
+    },
+    {
+        "name": "Whisper Mask",
+        "type": 16
+    },
+    {
+        "name": "Cookie Card",
+        "type": 25
+    },
+    {
+        "name": "Glass Bead",
+        "type": 11
+    },
+    {
+        "name": "Loki's Whispers Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Flora Card",
+        "type": 21
+    },
+    {
+        "name": "Alloy Mail",
+        "type": 3
+    },
+    {
+        "name": "Christmas Socks",
+        "type": 11
+    },
+    {
+        "name": "Rain of Arrow Card",
+        "type": 21
+    },
+    {
+        "name": "Stone Heart [1]",
+        "type": 16
+    },
+    {
+        "name": "Lance [1]",
+        "type": 1
+    },
+    {
+        "name": "Lance [2]",
+        "type": 1
+    },
+    {
+        "name": "Statue of Guardian Angel",
+        "type": 2
+    },
+    {
+        "name": "High Heels",
+        "type": 5
+    },
+    {
+        "name": "Alloy Mail [1]",
+        "type": 3
+    },
+    {
+        "name": "Peco Peco Egg Card",
+        "type": 21
+    },
+    {
+        "name": "Necklace of Wisdom",
+        "type": 11
+    },
+    {
+        "name": "Orc Skeleton Card",
+        "type": 21
+    },
+    {
+        "name": "Wedding Veil Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Vadon Card",
+        "type": 21
+    },
+    {
+        "name": "Joker Card",
+        "type": 26
+    },
+    {
+        "name": "Pirate Skeleton Card",
+        "type": 27
+    },
+    {
+        "name": "Saint's Robe",
+        "type": 3
+    },
+    {
+        "name": "Nightmare Card",
+        "type": 27
+    },
+    {
+        "name": "Green Petite Card",
+        "type": 21
+    },
+    {
+        "name": "Eggyra Card",
+        "type": 25
+    },
+    {
+        "name": "Rainbow Carrot",
+        "type": 13
+    },
+    {
+        "name": "Poison Knife [2]",
+        "type": 1
+    },
+    {
+        "name": "Magnolia Card",
+        "type": 21
+    },
+    {
+        "name": "Punk Card",
+        "type": 24
+    },
+    {
+        "name": "Ninja Suit Sakura [1]",
+        "type": 3
+    },
+    {
+        "name": "Frozen Rose",
+        "type": 11
+    },
+    {
+        "name": "Desert Wolf Card",
+        "type": 21
+    },
+    {
+        "name": "Lemegeton Fur",
+        "type": 11
+    },
+    {
+        "name": "Archer Skeleton Card",
+        "type": 21
+    },
+    {
+        "name": "Pretend Murdered",
+        "type": 16
+    },
+    {
+        "name": "Poker Face Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Mandragora Card",
+        "type": 21
+    },
+    {
+        "name": "Annoyed Mask",
+        "type": 17
+    },
+    {
+        "name": "Nine Tails",
+        "type": 20
+    },
+    {
+        "name": "Female Thief Bug Card",
+        "type": 21
+    },
+    {
+        "name": "Super Boost",
+        "type": 11
+    },
+    {
+        "name": "Peco Peco Card",
+        "type": 23
+    },
+    {
+        "name": "Fox Wrist Guard [1]",
+        "type": 2
+    },
+    {
+        "name": "Thief Bug Card",
+        "type": 22
+    },
+    {
+        "name": "Fox Wrist Guard",
+        "type": 2
+    },
+    {
+        "name": "Double Bound [1]",
+        "type": 1
+    },
+    {
+        "name": "Double Bound [2]",
+        "type": 1
+    },
+    {
+        "name": "Raydric Archer Card",
+        "type": 21
+    },
+    {
+        "name": "Army Cap Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Argiope Card",
+        "type": 23
+    },
+    {
+        "name": "Dokebi Horn [1]",
+        "type": 16
+    },
+    {
+        "name": "Ninja Suit Sakura",
+        "type": 3
+    },
+    {
+        "name": "Bill Guisarme [2]",
+        "type": 1
+    },
+    {
+        "name": "Big Ribbon [1] Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Army Cap",
+        "type": 16
+    },
+    {
+        "name": "Elven Ears",
+        "type": 17
+    },
+    {
+        "name": "Hockey Mask Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Stem Worm Card",
+        "type": 26
+    },
+    {
+        "name": "Vitata Card",
+        "type": 21
+    },
+    {
+        "name": "Red Ribbon",
+        "type": 11
+    },
+    {
+        "name": "Necktie [1] Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Munak Hat [1] Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Fang of Garm",
+        "type": 11
+    },
+    {
+        "name": "Hornet Card",
+        "type": 21
+    },
+    {
+        "name": "Crystal Bone",
+        "type": 11
+    },
+    {
+        "name": "Magic Eyes Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Cute Ribbon Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Kitty Band Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Minorous Horn",
+        "type": 16
+    },
+    {
+        "name": "Stop Post",
+        "type": 16
+    },
+    {
+        "name": "Hode Card",
+        "type": 24
+    },
+    {
+        "name": "Falken Blitz [1]",
+        "type": 1
+    },
+    {
+        "name": "Desert Twilight [1]",
+        "type": 1
+    },
+    {
+        "name": "Desert Twilight [2]",
+        "type": 1
+    },
+    {
+        "name": "Decorative Golden Bell Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Legionnaire Hat [1] Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Aqua Elemental Card",
+        "type": 22
+    },
+    {
+        "name": "Mimic Card",
+        "type": 26
+    },
+    {
+        "name": "Drainliar Card",
+        "type": 21
+    },
+    {
+        "name": "Elder Willow Card",
+        "type": 27
+    },
+    {
+        "name": "Evil Druid Card",
+        "type": 23
+    },
+    {
+        "name": "Dokebi Card",
+        "type": 23
+    },
+    {
+        "name": "Hibiscus Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Tropical Banana",
+        "type": 13
+    },
+    {
+        "name": "Orc Lady Card",
+        "type": 21
+    },
+    {
+        "name": "Poker Face",
+        "type": 17
+    },
+    {
+        "name": "Sohee Card",
+        "type": 25
+    },
+    {
+        "name": "Myst Card",
+        "type": 24
+    },
+    {
+        "name": "Crown [1]",
+        "type": 16
+    },
+    {
+        "name": "Swordfish Card",
+        "type": 23
+    },
+    {
+        "name": "Phen Card",
+        "type": 26
+    },
+    {
+        "name": "Goblin Archer Card",
+        "type": 21
+    },
+    {
+        "name": "Khalitzburg Card",
+        "type": 22
+    },
+    {
+        "name": "Sleepless Stone",
+        "type": 8
+    },
+    {
+        "name": "Steam Goblin Card",
+        "type": 21
+    },
+    {
+        "name": "Heart Breaker [1]",
+        "type": 1
+    },
+    {
+        "name": "Candle",
+        "type": 16
+    },
+    {
+        "name": "Gingerbread Man Card",
+        "type": 26
+    },
+    {
+        "name": "Cornus Card",
+        "type": 22
+    },
+    {
+        "name": "Grampa Beard Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Bunny Slipper",
+        "type": 5
+    },
+    {
+        "name": "Poring Hat",
+        "type": 16
+    },
+    {
+        "name": "Pupa *Card",
+        "type": 24
+    },
+    {
+        "name": "Beret",
+        "type": 16
+    },
+    {
+        "name": "Wraith Card",
+        "type": 26
+    },
+    {
+        "name": "Thara Frog Card",
+        "type": 23
+    },
+    {
+        "name": "Cramp Card",
+        "type": 27
+    },
+    {
+        "name": "Eye Bandage",
+        "type": 17
+    },
+    {
+        "name": "Hyegun Hat [1]",
+        "type": 16
+    },
+    {
+        "name": "Nile's Bracelet",
+        "type": 2
+    },
+    {
+        "name": "Safety Helmet",
+        "type": 16
+    },
+    {
+        "name": "Bomb Wick",
+        "type": 16
+    },
+    {
+        "name": "Penomena Card",
+        "type": 22
+    },
+    {
+        "name": "Wind Ghost Card",
+        "type": 26
+    },
+    {
+        "name": "Bongun Hat [1]",
+        "type": 16
+    },
+    {
+        "name": "Apple of Archer",
+        "type": 16
+    },
+    {
+        "name": "Renown Detective's Cap [1]",
+        "type": 16
+    },
+    {
+        "name": "Sting Card",
+        "type": 22
+    },
+    {
+        "name": "Glitter Shell",
+        "type": 11
+    },
+    {
+        "name": "Dustiness Card",
+        "type": 24
+    },
+    {
+        "name": "Indian Fillet",
+        "type": 16
+    },
+    {
+        "name": "Stone Heart [1] Blueprint",
+        "type": 7
+    },
+    {
+        "name": "Feather Beret [1]",
+        "type": 16
+    },
+    {
+        "name": "Bigfoot Card",
+        "type": 22
+    },
+    {
+        "name": "Gargoyle Card",
+        "type": 26
+    },
+    {
+        "name": "Goblin Card",
+        "type": 21
+    },
+    {
+        "name": "Anolian Card",
+        "type": 23                                                       
+    }
+]

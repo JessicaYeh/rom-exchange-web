@@ -1,4 +1,4 @@
-import { ItemData, ServerData, DataPoint, RangeData } from './item-data';
+import { ItemData, ServerData, DataPoint, RangeData, NameData } from './item-data';
 
 const request = require('request-promise');
 
@@ -99,6 +99,24 @@ export class API {
     });
   }
 
+  static getNames(completion: (names: NameData[]) => void) {
+    const promise = window.location.hostname === 'www.romexchange.com' ?
+      request({
+        uri: 'https://www.romexchange.com/items.json',
+        json: true
+      }) :
+      new Promise((resolve) => {
+        setTimeout(() => {
+          const mocknames = require('./mocknames.json');
+          resolve(mocknames);
+        }, 500);
+      });
+    promise.then((response: any) => {
+      const names = this.parseNamesJSON(response);
+      completion(names);
+    });
+  }
+
   private static parseItemsJSON(itemsJSON: []): ItemData[] {
     return itemsJSON.map((item: {}) => this.parseItemJSON(item));
   }
@@ -138,6 +156,17 @@ export class API {
       time: utcTime,
       price: dataPointJSON['price'],
       snap: dataPointJSON['snap']
+    };
+  }
+
+  private static parseNamesJSON(namesJSON: []): NameData[] {
+    return namesJSON.map((name: {}) => this.parseNameJSON(name));
+  }
+
+  private static parseNameJSON(nameJSON: {}): NameData {
+    return {
+      name: nameJSON['name'],
+      type: nameJSON['type']
     };
   }
 }
