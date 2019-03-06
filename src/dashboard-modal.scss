@@ -1,8 +1,8 @@
 @import "color";
 
-$inputWidth: 75%;
+$input-width: 75%;
 
-.dashboardModal {
+.dashboard-modal {
     background-color: whitesmoke;
     position: fixed;
     width: 50%;
@@ -17,26 +17,26 @@ $inputWidth: 75%;
     justify-content: space-evenly;
 }
 
-.nameSelect {
-    width: $inputWidth;
+.name-select {
+    width: $input-width;
     z-index: 2;
 }
 
-.createDashboardButton {
+.create-dashboard-button {
     margin-top: 15px;
 }
 
-.dashboardUrlInput{
-    width: $inputWidth;
+.dashboard-url-input{
+    width: $input-width;
 }
 
-.dashboardUrl {
+.dashboard-url {
     color: #263238 !important;
     border-color: #263238 !important;
     border-width: 2px !important;
 }
 
-.dashboardLimitWarning {
+.dashboard-limit-warning {
     color: $red;
     width: 90%;
     text-align: center;

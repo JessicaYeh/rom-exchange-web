@@ -62,12 +62,12 @@ class DashboardModal extends React.Component<any, ModalState> {
 
   render() {
     return (
-      <div className={styles["dashboardModal"]} tabIndex={-1}>
+      <div className={styles["dashboard-modal"]} tabIndex={-1}>
         <h2>New Dashboard</h2>
-        <Select className={styles["nameSelect"]} placeholder="Add items for your dashboard" value={this.state.selectedOptions} onChange={this.handleChange} options={nameOptions} isMulti={true} styles={customSelectStyle} autoFocus={true} />
+        <Select className={styles["name-select"]} placeholder="Add items for your dashboard" value={this.state.selectedOptions} onChange={this.handleChange} options={nameOptions} isMulti={true} styles={customSelectStyle} autoFocus={true} />
         {this.showCreateButton()}
         {this.showDashboardUrl()}
-        <p className={styles["dashboardLimitWarning"]} hidden={!this.state.showLimitWarning}>Your dashboard exceeded the length limit. "{this.state.firstIgnoredItem}" and all following items were ignored.</p>
+        <p className={styles["dashboard-limit-warning"]} hidden={!this.state.showLimitWarning}>Your dashboard exceeded the length limit. "{this.state.firstIgnoredItem}" and all following items were ignored.</p>
         <div className={styles["progress"]} hidden={!this.state.loading}>
           <CircularProgress color="secondary" />
         </div>
@@ -78,7 +78,7 @@ class DashboardModal extends React.Component<any, ModalState> {
   private showCreateButton() {
     if (!this.state.hasCreatedDashboard) {
       return (
-        <Button onClick={this.createDashboardUrl} className={styles["createDashboardButton"]} variant="contained" color="primary">
+        <Button onClick={this.createDashboardUrl} className={styles["create-dashboard-button"]} variant="contained" color="primary">
           Create Dashboard
         </Button>
       );
@@ -94,13 +94,13 @@ class DashboardModal extends React.Component<any, ModalState> {
           margin="normal"
           label="Dashboard URL"
           value={this.state.dashboardUrl}
-          className={styles["dashboardUrlInput"]}
+          className={styles["dashboard-url-input"]}
           InputProps={{
             readOnly: true,
             classes: {
-              root: styles["dashboardUrl"],
-              focused: styles["dashboardUrl"],
-              notchedOutline: styles["dashboardUrl"]
+              root: styles["dashboard-url"],
+              focused: styles["dashboard-url"],
+              notchedOutline: styles["dashboard-url"]
             },
             endAdornment: (
               <InputAdornment position="end">
@@ -120,8 +120,8 @@ class DashboardModal extends React.Component<any, ModalState> {
           }}
           InputLabelProps={{
             FormLabelClasses: {
-              root: styles["dashboardUrl"],
-              focused: styles["dashboardUrl"]
+              root: styles["dashboard-url"],
+              focused: styles["dashboard-url"]
             }
           }}
         />
