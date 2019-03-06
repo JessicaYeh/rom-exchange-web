@@ -282,7 +282,7 @@ class App extends React.Component<any, AppState> {
             </Button>
           </div>
           <Modal open={this.state.openDashboardModal} onClose={this.closeDashboardModal}>
-            <DashboardModal items={this.dashboardItems} />   
+            <DashboardModal items={this.dashboardItems} onCreate={this.onDashboardCreate} />   
           </Modal>
           {this.renderItemCharts()}
         </div>
@@ -324,10 +324,19 @@ class App extends React.Component<any, AppState> {
     }
   }
 
+  private onDashboardCreate(url: string) {
+    const q: string = qs.parseUrl(url).query["q"] as string || "";
+    this.searchByName(q);
+  }
+
   private searchByName(itemName: string, delay: number = 500) {
+    if (itemName.toLowerCase() === this.state.itemName.toLowerCase()) {
+      return;
+    }
+
     this.setState({ itemName });
     const history = this.props.history;
-    history.replace(itemName ? `?q=${itemName}` : "");
+    history.replace(itemName ? `?q=${encodeURI(itemName)}` : "");
 
     if (this.typingDelay) {
       clearTimeout(this.typingDelay);

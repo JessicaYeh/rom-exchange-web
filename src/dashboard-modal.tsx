@@ -14,6 +14,7 @@ import { Styles } from 'react-select/lib/styles';
 
 interface DashboardModalProps {
   items: string[];
+  onCreate?: (url: string) => void;
 }
 
 interface DashboardModalState {
@@ -191,13 +192,19 @@ class DashboardModal extends React.Component<DashboardModalProps, DashboardModal
       }
     }
 
+    // Removing extra encoded "|" from the url end, or the "?q=" from end if empty query
+    const dashboardUrl = url.substring(0, url.length - 3);
+
     this.setState({
-      // Removing extra encoded "|" from the url end
-      dashboardUrl: url.substring(0, url.length - 3),
+      dashboardUrl,
       showLimitWarning: hasBrokenLimit,
       firstIgnoredItem,
       hasCreatedDashboard: true
     });
+    
+    if (this.props.onCreate) {
+      this.props.onCreate(dashboardUrl);
+    }
   }
 
   private copyDashboardUrl() {
