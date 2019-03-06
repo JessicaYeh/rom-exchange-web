@@ -1,6 +1,7 @@
 import { observer } from "mobx-react";
 import * as React from 'react';
 const autobind = require('react-autobind');
+const queryString = require('query-string');
 
 import { CircularProgress, Button, TextField, InputAdornment, IconButton, Tooltip, ClickAwayListener } from '@material-ui/core';
 import Select from 'react-select';
@@ -58,6 +59,7 @@ class DashboardModal extends React.Component<any, ModalState> {
     if (nameOptions.length === 0){
       this.getNames();
     }
+    this.fillSelectedOptions();
   }
 
   render() {
@@ -153,6 +155,21 @@ class DashboardModal extends React.Component<any, ModalState> {
       };
       return nameOption;
     });
+  }
+
+  private fillSelectedOptions() {
+    const urlParams = queryString.parse(location.search);
+    if ("q" in urlParams) {
+      const items = urlParams.q.split("|");
+      const selectedOptions: NameOption[] = [];
+      for (const item of items) {
+        selectedOptions.push({
+          value: item,
+          label: item
+        });
+      }
+      this.setState({ selectedOptions });
+    }
   }
 
   private createDashboardUrl() {
