@@ -330,7 +330,7 @@ class App extends React.Component<any, AppState> {
   }
 
   private searchByName(itemName: string, delay: number = 500) {
-    if (itemName.toLowerCase() === this.state.itemName.toLowerCase()) {
+    if (itemName.toUpperCase() === this.state.itemName.toUpperCase()) {
       return;
     }
 

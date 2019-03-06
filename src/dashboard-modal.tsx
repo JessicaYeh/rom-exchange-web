@@ -161,7 +161,7 @@ class DashboardModal extends React.Component<DashboardModalProps, DashboardModal
     if (this.props.items) {
       selectedOptions = nameOptions.filter(nameOption => {
         return !!this.props.items.find(item => {
-          return nameOption.value.toLowerCase() === item.toLowerCase();
+          return nameOption.value.toUpperCase() === item.toUpperCase();
         });
       });
     }
