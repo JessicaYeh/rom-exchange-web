@@ -102,7 +102,7 @@ export class API {
   static getNames(completion: (names: NameData[]) => void) {
     const promise = window.location.hostname === 'www.romexchange.com' ?
       request({
-        uri: 'https://www.romexchange.com/items.json',
+        uri: 'https://www.romexchange.com/api/items.json',
         json: true
       }) :
       new Promise((resolve) => {
