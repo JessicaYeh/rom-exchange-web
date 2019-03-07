@@ -73,6 +73,8 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
           unit: 'day' as TimeUnit
         },
         ticks: {
+          autoSkip: true,
+          autoSkipPadding: 10,
           maxRotation: 0
         }
       }],
