@@ -175,12 +175,14 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
 
   private serverRangeData(server: Server): RangeData {
     const serverData = this.serverData(server);
-    if (this.props.range === Range.Week) {
-      return serverData.week;
-    } else if (this.props.range === Range.Month) {
-      return serverData.month;
-    } else {
+    if (this.props.range === Range.All && serverData.all) {
       return serverData.all;
+    } else if (this.props.range === Range.Month && serverData.month) {
+      return serverData.month;
+    } else if (this.props.range === Range.Week && serverData.week) {
+      return serverData.week;
+    } else {
+      return { data: [], change: 0 };
     }
   }
 
