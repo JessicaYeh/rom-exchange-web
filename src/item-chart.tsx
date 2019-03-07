@@ -74,7 +74,6 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
         },
         ticks: {
           autoSkip: true,
-          autoSkipPadding: 10,
           maxRotation: 0
         }
       }],
