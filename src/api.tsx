@@ -83,7 +83,6 @@ export class API {
           sort: query.sort ? query.sort.sort : undefined,
           sort_dir: query.sort ? query.sort.direction : undefined,
           sort_server: query.sort ? query.sort.server : undefined,
-          sort_range: query.sort ? query.sort.range : undefined,
           range: query.sort ? query.sort.range : undefined
         },
         json: true
