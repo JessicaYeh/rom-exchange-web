@@ -54,7 +54,7 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
     },
     elements: {
       point: {
-        radius: 3,
+        radius: this.props.range === Range.Week ? 3 : 0,
         hoverRadius: 4,
         hitRadius: 20,
         strokeWidth: 1,
