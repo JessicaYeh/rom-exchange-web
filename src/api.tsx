@@ -89,8 +89,13 @@ export class API {
       }) :
       new Promise((resolve) => {
         setTimeout(() => {
-          const mockdata = require('./mockdata.json');
-          resolve(mockdata);
+          if (query.sort && query.sort.range === Range.All) {
+            resolve(require('./mockdata-all.json'));
+          } else if (query.sort && query.sort.range === Range.Month) {
+            resolve(require('./mockdata-month.json'));
+          } else {
+            resolve(require('./mockdata-week.json'));
+          }
         }, 500);
       });
     promise.then((response: any) => {

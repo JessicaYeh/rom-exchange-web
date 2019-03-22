@@ -1,0 +1,1541 @@
+[{
+	"name": "Zircon",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -30.5,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 4367,
+				"time": "2019-03-16T09:09:42Z"
+			}, {
+				"snap": false,
+				"price": 5037,
+				"time": "2019-03-17T14:45:38Z"
+			}, {
+				"snap": false,
+				"price": 5279,
+				"time": "2019-03-18T09:08:11Z"
+			}, {
+				"snap": false,
+				"price": 6091,
+				"time": "2019-03-19T14:31:12Z"
+			}, {
+				"snap": false,
+				"price": 6690,
+				"time": "2019-03-20T09:08:30Z"
+			}, {
+				"snap": false,
+				"price": 7118,
+				"time": "2019-03-21T09:09:17Z"
+			}, {
+				"snap": false,
+				"price": 7616,
+				"time": "2019-03-22T09:09:56Z"
+			}],
+			"change": 74.4
+		},
+		"latest": 7616,
+		"latest_time": "2019-03-22T09:09:56Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 5994,
+				"time": "2019-03-16T11:20:10Z"
+			}, {
+				"snap": false,
+				"price": 5859,
+				"time": "2019-03-17T16:56:20Z"
+			}, {
+				"snap": false,
+				"price": 5504,
+				"time": "2019-03-18T11:16:04Z"
+			}, {
+				"snap": false,
+				"price": 5364,
+				"time": "2019-03-19T16:41:22Z"
+			}, {
+				"snap": false,
+				"price": 5245,
+				"time": "2019-03-20T15:10:34Z"
+			}, {
+				"snap": false,
+				"price": 5256,
+				"time": "2019-03-21T11:17:18Z"
+			}, {
+				"snap": false,
+				"price": 5293,
+				"time": "2019-03-22T11:18:51Z"
+			}],
+			"change": -11.7
+		},
+		"latest": 5293,
+		"latest_time": "2019-03-22T11:18:51Z"
+	}
+}, {
+	"name": "Armor Shard",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -78.8,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 2073,
+				"time": "2019-03-16T09:10:45Z"
+			}, {
+				"snap": false,
+				"price": 2258,
+				"time": "2019-03-17T14:46:42Z"
+			}, {
+				"snap": false,
+				"price": 2348,
+				"time": "2019-03-18T09:09:22Z"
+			}, {
+				"snap": false,
+				"price": 2567,
+				"time": "2019-03-19T14:33:06Z"
+			}, {
+				"snap": false,
+				"price": 2750,
+				"time": "2019-03-20T09:09:52Z"
+			}, {
+				"snap": false,
+				"price": 2948,
+				"time": "2019-03-21T09:10:31Z"
+			}, {
+				"snap": false,
+				"price": 3051,
+				"time": "2019-03-22T09:10:58Z"
+			}],
+			"change": 47.2
+		},
+		"latest": 3051,
+		"latest_time": "2019-03-22T09:10:58Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 588,
+				"time": "2019-03-16T11:21:31Z"
+			}, {
+				"snap": false,
+				"price": 701,
+				"time": "2019-03-17T16:57:52Z"
+			}, {
+				"snap": false,
+				"price": 693,
+				"time": "2019-03-18T11:17:53Z"
+			}, {
+				"snap": false,
+				"price": 679,
+				"time": "2019-03-19T16:43:07Z"
+			}, {
+				"snap": false,
+				"price": 663,
+				"time": "2019-03-20T15:12:46Z"
+			}, {
+				"snap": false,
+				"price": 647,
+				"time": "2019-03-21T11:19:03Z"
+			}, {
+				"snap": false,
+				"price": 648,
+				"time": "2019-03-22T11:20:45Z"
+			}],
+			"change": 10.2
+		},
+		"latest": 648,
+		"latest_time": "2019-03-22T11:20:45Z"
+	}
+}, {
+	"name": "Necklace of Oblivion",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -10,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 394,
+				"time": "2019-03-16T09:11:46Z"
+			}, {
+				"snap": false,
+				"price": 383,
+				"time": "2019-03-17T14:47:43Z"
+			}, {
+				"snap": false,
+				"price": 386,
+				"time": "2019-03-18T09:10:17Z"
+			}, {
+				"snap": false,
+				"price": 412,
+				"time": "2019-03-19T14:34:07Z"
+			}, {
+				"snap": false,
+				"price": 449,
+				"time": "2019-03-20T09:10:54Z"
+			}, {
+				"snap": false,
+				"price": 499,
+				"time": "2019-03-21T09:11:33Z"
+			}, {
+				"snap": false,
+				"price": 558,
+				"time": "2019-03-22T09:11:59Z"
+			}],
+			"change": 41.6
+		},
+		"latest": 558,
+		"latest_time": "2019-03-22T09:11:59Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 390,
+				"time": "2019-03-16T11:23:39Z"
+			}, {
+				"snap": false,
+				"price": 378,
+				"time": "2019-03-17T16:59:36Z"
+			}, {
+				"snap": false,
+				"price": 374,
+				"time": "2019-03-18T11:19:02Z"
+			}, {
+				"snap": false,
+				"price": 404,
+				"time": "2019-03-19T16:44:10Z"
+			}, {
+				"snap": false,
+				"price": 415,
+				"time": "2019-03-20T15:13:52Z"
+			}, {
+				"snap": false,
+				"price": 458,
+				"time": "2019-03-21T11:20:01Z"
+			}, {
+				"snap": false,
+				"price": 502,
+				"time": "2019-03-22T11:21:21Z"
+			}],
+			"change": 28.7
+		},
+		"latest": 502,
+		"latest_time": "2019-03-22T11:21:21Z"
+	}
+}, {
+	"name": "Amethyst",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -28,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 3480,
+				"time": "2019-03-16T09:09:51Z"
+			}, {
+				"snap": false,
+				"price": 3457,
+				"time": "2019-03-17T14:45:53Z"
+			}, {
+				"snap": false,
+				"price": 3534,
+				"time": "2019-03-18T09:08:33Z"
+			}, {
+				"snap": false,
+				"price": 3672,
+				"time": "2019-03-19T14:32:30Z"
+			}, {
+				"snap": false,
+				"price": 3919,
+				"time": "2019-03-20T09:09:07Z"
+			}, {
+				"snap": false,
+				"price": 4327,
+				"time": "2019-03-21T09:09:39Z"
+			}, {
+				"snap": false,
+				"price": 4659,
+				"time": "2019-03-22T09:09:49Z"
+			}],
+			"change": 33.9
+		},
+		"latest": 4659,
+		"latest_time": "2019-03-22T09:09:49Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 3081,
+				"time": "2019-03-16T11:20:25Z"
+			}, {
+				"snap": false,
+				"price": 3038,
+				"time": "2019-03-17T16:56:35Z"
+			}, {
+				"snap": false,
+				"price": 2950,
+				"time": "2019-03-18T11:16:14Z"
+			}, {
+				"snap": false,
+				"price": 3042,
+				"time": "2019-03-19T16:41:33Z"
+			}, {
+				"snap": false,
+				"price": 3061,
+				"time": "2019-03-20T15:10:41Z"
+			}, {
+				"snap": false,
+				"price": 3155,
+				"time": "2019-03-21T11:17:29Z"
+			}, {
+				"snap": false,
+				"price": 3356,
+				"time": "2019-03-22T11:19:01Z"
+			}],
+			"change": 8.9
+		},
+		"latest": 3356,
+		"latest_time": "2019-03-22T11:19:01Z"
+	}
+}, {
+	"name": "Cyfar",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -19.8,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 677,
+				"time": "2019-03-16T09:12:10Z"
+			}, {
+				"snap": false,
+				"price": 636,
+				"time": "2019-03-17T14:47:52Z"
+			}, {
+				"snap": false,
+				"price": 633,
+				"time": "2019-03-18T09:10:28Z"
+			}, {
+				"snap": false,
+				"price": 659,
+				"time": "2019-03-19T14:34:14Z"
+			}, {
+				"snap": false,
+				"price": 711,
+				"time": "2019-03-20T09:11:00Z"
+			}, {
+				"snap": false,
+				"price": 775,
+				"time": "2019-03-21T09:11:26Z"
+			}, {
+				"snap": false,
+				"price": 891,
+				"time": "2019-03-22T09:11:52Z"
+			}],
+			"change": 31.6
+		},
+		"latest": 891,
+		"latest_time": "2019-03-22T09:11:52Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 486,
+				"time": "2019-03-16T11:23:34Z"
+			}, {
+				"snap": false,
+				"price": 472,
+				"time": "2019-03-17T16:59:15Z"
+			}, {
+				"snap": false,
+				"price": 488,
+				"time": "2019-03-18T11:18:40Z"
+			}, {
+				"snap": false,
+				"price": 557,
+				"time": "2019-03-19T16:43:55Z"
+			}, {
+				"snap": false,
+				"price": 589,
+				"time": "2019-03-20T15:13:32Z"
+			}, {
+				"snap": false,
+				"price": 650,
+				"time": "2019-03-21T11:19:51Z"
+			}, {
+				"snap": false,
+				"price": 715,
+				"time": "2019-03-22T11:21:37Z"
+			}],
+			"change": 47.1
+		},
+		"latest": 715,
+		"latest_time": "2019-03-22T11:21:37Z"
+	}
+}, {
+	"name": "Lemegeton Tear",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": 7.4,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 100985,
+				"time": "2019-03-16T09:05:45Z"
+			}, {
+				"snap": false,
+				"price": 78453,
+				"time": "2019-03-17T14:41:51Z"
+			}, {
+				"snap": true,
+				"price": 88077,
+				"time": "2019-03-18T09:04:21Z"
+			}, {
+				"snap": false,
+				"price": 123800,
+				"time": "2019-03-19T14:28:18Z"
+			}, {
+				"snap": false,
+				"price": 121966,
+				"time": "2019-03-20T09:05:05Z"
+			}, {
+				"snap": false,
+				"price": 107975,
+				"time": "2019-03-21T09:05:30Z"
+			}, {
+				"snap": false,
+				"price": 126131,
+				"time": "2019-03-22T09:06:00Z"
+			}],
+			"change": 24.9
+		},
+		"latest": 126131,
+		"latest_time": "2019-03-22T09:06:00Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 98316,
+				"time": "2019-03-16T11:16:31Z"
+			}, {
+				"snap": false,
+				"price": 117915,
+				"time": "2019-03-17T16:52:24Z"
+			}, {
+				"snap": false,
+				"price": 137329,
+				"time": "2019-03-18T11:11:59Z"
+			}, {
+				"snap": false,
+				"price": 157572,
+				"time": "2019-03-19T16:37:40Z"
+			}, {
+				"snap": false,
+				"price": 155713,
+				"time": "2019-03-20T15:05:54Z"
+			}, {
+				"snap": false,
+				"price": 138731,
+				"time": "2019-03-21T11:13:49Z"
+			}, {
+				"snap": false,
+				"price": 135436,
+				"time": "2019-03-22T11:15:23Z"
+			}],
+			"change": 37.8
+		},
+		"latest": 135436,
+		"latest_time": "2019-03-22T11:15:23Z"
+	}
+}, {
+	"name": "Orcish Voucher",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -37,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 4804,
+				"time": "2019-03-16T09:10:07Z"
+			}, {
+				"snap": false,
+				"price": 5207,
+				"time": "2019-03-17T14:45:58Z"
+			}, {
+				"snap": false,
+				"price": 5295,
+				"time": "2019-03-18T09:08:44Z"
+			}, {
+				"snap": false,
+				"price": 5308,
+				"time": "2019-03-19T14:32:35Z"
+			}, {
+				"snap": false,
+				"price": 5374,
+				"time": "2019-03-20T09:09:22Z"
+			}, {
+				"snap": false,
+				"price": 5574,
+				"time": "2019-03-21T09:09:49Z"
+			}, {
+				"snap": false,
+				"price": 5910,
+				"time": "2019-03-22T09:10:16Z"
+			}],
+			"change": 23
+		},
+		"latest": 5910,
+		"latest_time": "2019-03-22T09:10:16Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 3843,
+				"time": "2019-03-16T11:20:54Z"
+			}, {
+				"snap": false,
+				"price": 3742,
+				"time": "2019-03-17T16:57:03Z"
+			}, {
+				"snap": false,
+				"price": 3597,
+				"time": "2019-03-18T11:16:43Z"
+			}, {
+				"snap": false,
+				"price": 3475,
+				"time": "2019-03-19T16:42:06Z"
+			}, {
+				"snap": false,
+				"price": 3453,
+				"time": "2019-03-20T15:11:23Z"
+			}, {
+				"snap": false,
+				"price": 3561,
+				"time": "2019-03-21T11:18:02Z"
+			}, {
+				"snap": false,
+				"price": 3721,
+				"time": "2019-03-22T11:19:29Z"
+			}],
+			"change": -3.2
+		},
+		"latest": 3721,
+		"latest_time": "2019-03-22T11:19:29Z"
+	}
+}, {
+	"name": "Ice Cube",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -61,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 533,
+				"time": "2019-03-16T09:10:54Z"
+			}, {
+				"snap": false,
+				"price": 566,
+				"time": "2019-03-17T14:46:47Z"
+			}, {
+				"snap": false,
+				"price": 623,
+				"time": "2019-03-18T09:09:26Z"
+			}, {
+				"snap": false,
+				"price": 634,
+				"time": "2019-03-19T14:33:18Z"
+			}, {
+				"snap": false,
+				"price": 661,
+				"time": "2019-03-20T09:10:30Z"
+			}, {
+				"snap": false,
+				"price": 646,
+				"time": "2019-03-21T09:10:55Z"
+			}, {
+				"snap": false,
+				"price": 639,
+				"time": "2019-03-22T09:11:33Z"
+			}],
+			"change": 19.9
+		},
+		"latest": 639,
+		"latest_time": "2019-03-22T09:11:33Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 232,
+				"time": "2019-03-16T11:22:32Z"
+			}, {
+				"snap": false,
+				"price": 232,
+				"time": "2019-03-17T16:58:39Z"
+			}, {
+				"snap": false,
+				"price": 228,
+				"time": "2019-03-18T11:18:24Z"
+			}, {
+				"snap": false,
+				"price": 231,
+				"time": "2019-03-19T16:43:43Z"
+			}, {
+				"snap": false,
+				"price": 229,
+				"time": "2019-03-20T15:13:19Z"
+			}, {
+				"snap": false,
+				"price": 238,
+				"time": "2019-03-21T11:19:40Z"
+			}, {
+				"snap": false,
+				"price": 249,
+				"time": "2019-03-22T11:21:06Z"
+			}],
+			"change": 7.3
+		},
+		"latest": 249,
+		"latest_time": "2019-03-22T11:21:06Z"
+	}
+}, {
+	"name": "Seed of Mastela",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -17.2,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 116443,
+				"time": "2019-03-16T09:06:13Z"
+			}, {
+				"snap": true,
+				"price": 127103,
+				"time": "2019-03-17T14:41:35Z"
+			}, {
+				"snap": false,
+				"price": 149800,
+				"time": "2019-03-18T09:04:48Z"
+			}, {
+				"snap": false,
+				"price": 135912,
+				"time": "2019-03-19T14:29:21Z"
+			}, {
+				"snap": false,
+				"price": 138349,
+				"time": "2019-03-20T09:05:39Z"
+			}, {
+				"snap": false,
+				"price": 142025,
+				"time": "2019-03-21T09:06:21Z"
+			}, {
+				"snap": false,
+				"price": 136226,
+				"time": "2019-03-22T09:07:01Z"
+			}],
+			"change": 17
+		},
+		"latest": 136226,
+		"latest_time": "2019-03-22T09:07:01Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 101947,
+				"time": "2019-03-16T11:18:07Z"
+			}, {
+				"snap": false,
+				"price": 99042,
+				"time": "2019-03-17T16:53:45Z"
+			}, {
+				"snap": false,
+				"price": 101356,
+				"time": "2019-03-18T11:13:10Z"
+			}, {
+				"snap": false,
+				"price": 102525,
+				"time": "2019-03-19T16:38:54Z"
+			}, {
+				"snap": false,
+				"price": 100699,
+				"time": "2019-03-20T15:07:16Z"
+			}, {
+				"snap": false,
+				"price": 105449,
+				"time": "2019-03-21T11:14:55Z"
+			}, {
+				"snap": false,
+				"price": 112839,
+				"time": "2019-03-22T11:16:40Z"
+			}],
+			"change": 10.7
+		},
+		"latest": 112839,
+		"latest_time": "2019-03-22T11:16:40Z"
+	}
+}, {
+	"name": "Ice Powder",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": 14.5,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 149370,
+				"time": "2019-03-16T09:06:19Z"
+			}, {
+				"snap": false,
+				"price": 151087,
+				"time": "2019-03-17T14:42:20Z"
+			}, {
+				"snap": true,
+				"price": 151379,
+				"time": "2019-03-18T09:04:27Z"
+			}, {
+				"snap": false,
+				"price": 204659,
+				"time": "2019-03-19T14:29:14Z"
+			}, {
+				"snap": false,
+				"price": 200150,
+				"time": "2019-03-20T09:06:01Z"
+			}, {
+				"snap": false,
+				"price": 186296,
+				"time": "2019-03-21T09:06:27Z"
+			}, {
+				"snap": false,
+				"price": 173077,
+				"time": "2019-03-22T09:06:49Z"
+			}],
+			"change": 15.9
+		},
+		"latest": 173077,
+		"latest_time": "2019-03-22T09:06:49Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 157286,
+				"time": "2019-03-16T11:17:45Z"
+			}, {
+				"snap": false,
+				"price": 149677,
+				"time": "2019-03-17T16:53:51Z"
+			}, {
+				"snap": false,
+				"price": 146971,
+				"time": "2019-03-18T11:13:25Z"
+			}, {
+				"snap": true,
+				"price": 176675,
+				"time": "2019-03-19T16:36:53Z"
+			}, {
+				"snap": false,
+				"price": 213778,
+				"time": "2019-03-20T15:06:32Z"
+			}, {
+				"snap": false,
+				"price": 209076,
+				"time": "2019-03-21T11:15:12Z"
+			}, {
+				"snap": false,
+				"price": 198105,
+				"time": "2019-03-22T11:16:46Z"
+			}],
+			"change": 26
+		},
+		"latest": 198105,
+		"latest_time": "2019-03-22T11:16:46Z"
+	}
+}, {
+	"name": "Flame",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -24.9,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 46535,
+				"time": "2019-03-16T09:06:06Z"
+			}, {
+				"snap": false,
+				"price": 43076,
+				"time": "2019-03-17T14:42:15Z"
+			}, {
+				"snap": false,
+				"price": 44650,
+				"time": "2019-03-18T09:05:06Z"
+			}, {
+				"snap": false,
+				"price": 42691,
+				"time": "2019-03-19T14:29:03Z"
+			}, {
+				"snap": false,
+				"price": 45603,
+				"time": "2019-03-20T09:05:33Z"
+			}, {
+				"snap": false,
+				"price": 52373,
+				"time": "2019-03-21T09:05:52Z"
+			}, {
+				"snap": false,
+				"price": 53333,
+				"time": "2019-03-22T09:06:26Z"
+			}],
+			"change": 14.6
+		},
+		"latest": 53333,
+		"latest_time": "2019-03-22T09:06:26Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 39478,
+				"time": "2019-03-16T11:17:31Z"
+			}, {
+				"snap": false,
+				"price": 38130,
+				"time": "2019-03-17T16:53:39Z"
+			}, {
+				"snap": false,
+				"price": 36349,
+				"time": "2019-03-18T11:13:31Z"
+			}, {
+				"snap": false,
+				"price": 34932,
+				"time": "2019-03-19T16:38:26Z"
+			}, {
+				"snap": false,
+				"price": 34433,
+				"time": "2019-03-20T15:06:24Z"
+			}, {
+				"snap": false,
+				"price": 36388,
+				"time": "2019-03-21T11:14:18Z"
+			}, {
+				"snap": false,
+				"price": 40036,
+				"time": "2019-03-22T11:14:59Z"
+			}],
+			"change": 1.4
+		},
+		"latest": 40036,
+		"latest_time": "2019-03-22T11:14:59Z"
+	}
+}, {
+	"name": "Star Crumb",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -26.7,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 122150,
+				"time": "2019-03-16T09:09:02Z"
+			}, {
+				"snap": false,
+				"price": 119565,
+				"time": "2019-03-17T14:44:46Z"
+			}, {
+				"snap": false,
+				"price": 126644,
+				"time": "2019-03-18T09:07:32Z"
+			}, {
+				"snap": false,
+				"price": 130291,
+				"time": "2019-03-19T14:31:07Z"
+			}, {
+				"snap": false,
+				"price": 132627,
+				"time": "2019-03-20T09:07:49Z"
+			}, {
+				"snap": false,
+				"price": 134620,
+				"time": "2019-03-21T09:08:09Z"
+			}, {
+				"snap": false,
+				"price": 139224,
+				"time": "2019-03-22T09:08:41Z"
+			}],
+			"change": 14
+		},
+		"latest": 139224,
+		"latest_time": "2019-03-22T09:08:41Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 102698,
+				"time": "2019-03-16T11:19:45Z"
+			}, {
+				"snap": false,
+				"price": 103602,
+				"time": "2019-03-17T16:55:18Z"
+			}, {
+				"snap": false,
+				"price": 101775,
+				"time": "2019-03-18T11:15:17Z"
+			}, {
+				"snap": false,
+				"price": 97021,
+				"time": "2019-03-19T16:40:46Z"
+			}, {
+				"snap": false,
+				"price": 95629,
+				"time": "2019-03-20T15:09:23Z"
+			}, {
+				"snap": false,
+				"price": 99251,
+				"time": "2019-03-21T11:16:32Z"
+			}, {
+				"snap": false,
+				"price": 102006,
+				"time": "2019-03-22T11:17:57Z"
+			}],
+			"change": -0.7
+		},
+		"latest": 102006,
+		"latest_time": "2019-03-22T11:17:57Z"
+	}
+}, {
+	"name": "White Dyestuffs",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": 20.4,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 37521,
+				"time": "2019-03-16T09:05:50Z"
+			}, {
+				"snap": false,
+				"price": 39467,
+				"time": "2019-03-17T14:42:02Z"
+			}, {
+				"snap": false,
+				"price": 41384,
+				"time": "2019-03-18T09:04:43Z"
+			}, {
+				"snap": false,
+				"price": 41968,
+				"time": "2019-03-19T14:28:52Z"
+			}, {
+				"snap": false,
+				"price": 45829,
+				"time": "2019-03-20T09:05:27Z"
+			}, {
+				"snap": false,
+				"price": 44392,
+				"time": "2019-03-21T09:05:57Z"
+			}, {
+				"snap": false,
+				"price": 42675,
+				"time": "2019-03-22T09:06:38Z"
+			}],
+			"change": 13.7
+		},
+		"latest": 42675,
+		"latest_time": "2019-03-22T09:06:38Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 50554,
+				"time": "2019-03-16T11:16:48Z"
+			}, {
+				"snap": false,
+				"price": 47323,
+				"time": "2019-03-17T16:53:04Z"
+			}, {
+				"snap": false,
+				"price": 44774,
+				"time": "2019-03-18T11:12:47Z"
+			}, {
+				"snap": false,
+				"price": 43941,
+				"time": "2019-03-19T16:38:04Z"
+			}, {
+				"snap": false,
+				"price": 44092,
+				"time": "2019-03-20T15:06:01Z"
+			}, {
+				"snap": false,
+				"price": 46267,
+				"time": "2019-03-21T11:14:00Z"
+			}, {
+				"snap": false,
+				"price": 51390,
+				"time": "2019-03-22T11:15:34Z"
+			}],
+			"change": 1.7
+		},
+		"latest": 51390,
+		"latest_time": "2019-03-22T11:15:34Z"
+	}
+}, {
+	"name": "Key of Clock Tower",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -15.2,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 920783,
+				"time": "2019-03-16T09:06:24Z"
+			}, {
+				"snap": false,
+				"price": 926143,
+				"time": "2019-03-17T14:42:26Z"
+			}, {
+				"snap": false,
+				"price": 962385,
+				"time": "2019-03-18T09:05:12Z"
+			}, {
+				"snap": false,
+				"price": 963802,
+				"time": "2019-03-19T14:29:08Z"
+			}, {
+				"snap": false,
+				"price": 1022453,
+				"time": "2019-03-20T09:05:45Z"
+			}, {
+				"snap": false,
+				"price": 1026086,
+				"time": "2019-03-21T09:06:11Z"
+			}, {
+				"snap": false,
+				"price": 1038123,
+				"time": "2019-03-22T09:06:44Z"
+			}],
+			"change": 12.7
+		},
+		"latest": 1038123,
+		"latest_time": "2019-03-22T09:06:44Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 852262,
+				"time": "2019-03-16T11:17:51Z"
+			}, {
+				"snap": false,
+				"price": 841393,
+				"time": "2019-03-17T16:54:03Z"
+			}, {
+				"snap": false,
+				"price": 806463,
+				"time": "2019-03-18T11:13:49Z"
+			}, {
+				"snap": false,
+				"price": 799073,
+				"time": "2019-03-19T16:39:00Z"
+			}, {
+				"snap": false,
+				"price": 794158,
+				"time": "2019-03-20T15:06:58Z"
+			}, {
+				"snap": false,
+				"price": 825293,
+				"time": "2019-03-21T11:14:36Z"
+			}, {
+				"snap": false,
+				"price": 879843,
+				"time": "2019-03-22T11:15:59Z"
+			}],
+			"change": 3.2
+		},
+		"latest": 879843,
+		"latest_time": "2019-03-22T11:15:59Z"
+	}
+}, {
+	"name": "Memory Gem",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -17.2,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 29261,
+				"time": "2019-03-16T09:09:57Z"
+			}, {
+				"snap": false,
+				"price": 28640,
+				"time": "2019-03-17T14:45:48Z"
+			}, {
+				"snap": false,
+				"price": 29511,
+				"time": "2019-03-18T09:08:28Z"
+			}, {
+				"snap": false,
+				"price": 29495,
+				"time": "2019-03-19T14:32:21Z"
+			}, {
+				"snap": false,
+				"price": 31224,
+				"time": "2019-03-20T09:09:02Z"
+			}, {
+				"snap": false,
+				"price": 32748,
+				"time": "2019-03-21T09:09:34Z"
+			}, {
+				"snap": false,
+				"price": 32973,
+				"time": "2019-03-22T09:10:01Z"
+			}],
+			"change": 12.7
+		},
+		"latest": 32973,
+		"latest_time": "2019-03-22T09:10:01Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 24679,
+				"time": "2019-03-16T11:20:31Z"
+			}, {
+				"snap": false,
+				"price": 25371,
+				"time": "2019-03-17T16:56:42Z"
+			}, {
+				"snap": false,
+				"price": 24884,
+				"time": "2019-03-18T11:16:22Z"
+			}, {
+				"snap": false,
+				"price": 25553,
+				"time": "2019-03-19T16:41:45Z"
+			}, {
+				"snap": false,
+				"price": 25228,
+				"time": "2019-03-20T15:11:03Z"
+			}, {
+				"snap": false,
+				"price": 26016,
+				"time": "2019-03-21T11:17:41Z"
+			}, {
+				"snap": false,
+				"price": 27290,
+				"time": "2019-03-22T11:19:07Z"
+			}],
+			"change": 10.6
+		},
+		"latest": 27290,
+		"latest_time": "2019-03-22T11:19:07Z"
+	}
+}, {
+	"name": "Red Ribbon",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": 20,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 109202,
+				"time": "2019-03-16T09:05:39Z"
+			}, {
+				"snap": false,
+				"price": 162052,
+				"time": "2019-03-17T14:41:41Z"
+			}, {
+				"snap": false,
+				"price": 143179,
+				"time": "2019-03-18T09:04:37Z"
+			}, {
+				"snap": false,
+				"price": 117225,
+				"time": "2019-03-19T14:28:34Z"
+			}, {
+				"snap": false,
+				"price": 117328,
+				"time": "2019-03-20T09:05:15Z"
+			}, {
+				"snap": false,
+				"price": 128669,
+				"time": "2019-03-21T09:05:36Z"
+			}, {
+				"snap": false,
+				"price": 122040,
+				"time": "2019-03-22T09:06:10Z"
+			}],
+			"change": 11.8
+		},
+		"latest": 122040,
+		"latest_time": "2019-03-22T09:06:10Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 118267,
+				"time": "2019-03-16T11:16:37Z"
+			}, {
+				"snap": false,
+				"price": 119063,
+				"time": "2019-03-17T16:52:39Z"
+			}, {
+				"snap": false,
+				"price": 118587,
+				"time": "2019-03-18T11:12:23Z"
+			}, {
+				"snap": false,
+				"price": 123966,
+				"time": "2019-03-19T16:37:46Z"
+			}, {
+				"snap": false,
+				"price": 135502,
+				"time": "2019-03-20T15:05:22Z"
+			}, {
+				"snap": false,
+				"price": 138765,
+				"time": "2019-03-21T11:13:37Z"
+			}, {
+				"snap": false,
+				"price": 146446,
+				"time": "2019-03-22T11:15:17Z"
+			}],
+			"change": 23.8
+		},
+		"latest": 146446,
+		"latest_time": "2019-03-22T11:15:17Z"
+	}
+}, {
+	"name": "Time Twister",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": -56.8,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 1482272,
+				"time": "2019-03-16T09:06:01Z"
+			}, {
+				"snap": false,
+				"price": 1511847,
+				"time": "2019-03-17T14:42:08Z"
+			}, {
+				"snap": false,
+				"price": 1566449,
+				"time": "2019-03-18T09:05:01Z"
+			}, {
+				"snap": false,
+				"price": 1572030,
+				"time": "2019-03-19T14:28:57Z"
+			}, {
+				"snap": false,
+				"price": 1581557,
+				"time": "2019-03-20T09:05:51Z"
+			}, {
+				"snap": false,
+				"price": 1548199,
+				"time": "2019-03-21T09:06:05Z"
+			}, {
+				"snap": false,
+				"price": 1652100,
+				"time": "2019-03-22T09:06:33Z"
+			}],
+			"change": 11.5
+		},
+		"latest": 1652100,
+		"latest_time": "2019-03-22T09:06:33Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 806238,
+				"time": "2019-03-16T11:18:21Z"
+			}, {
+				"snap": false,
+				"price": 783169,
+				"time": "2019-03-17T16:54:16Z"
+			}, {
+				"snap": false,
+				"price": 757390,
+				"time": "2019-03-18T11:13:55Z"
+			}, {
+				"snap": false,
+				"price": 733613,
+				"time": "2019-03-19T16:39:29Z"
+			}, {
+				"snap": false,
+				"price": 712491,
+				"time": "2019-03-20T15:07:57Z"
+			}, {
+				"snap": false,
+				"price": 716305,
+				"time": "2019-03-21T11:15:01Z"
+			}, {
+				"snap": false,
+				"price": 713301,
+				"time": "2019-03-22T11:16:18Z"
+			}],
+			"change": -11.5
+		},
+		"latest": 713301,
+		"latest_time": "2019-03-22T11:16:18Z"
+	}
+}, {
+	"name": "Agate",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": 3.4,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 9282,
+				"time": "2019-03-16T09:07:09Z"
+			}, {
+				"snap": false,
+				"price": 8357,
+				"time": "2019-03-17T14:43:22Z"
+			}, {
+				"snap": false,
+				"price": 8381,
+				"time": "2019-03-18T09:05:41Z"
+			}, {
+				"snap": false,
+				"price": 9397,
+				"time": "2019-03-19T14:28:13Z"
+			}, {
+				"snap": false,
+				"price": 10427,
+				"time": "2019-03-20T09:06:47Z"
+			}, {
+				"snap": false,
+				"price": 8949,
+				"time": "2019-03-21T09:07:24Z"
+			}, {
+				"snap": false,
+				"price": 10341,
+				"time": "2019-03-22T09:06:15Z"
+			}],
+			"change": 11.4
+		},
+		"latest": 10341,
+		"latest_time": "2019-03-22T09:06:15Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": true,
+				"price": 8929,
+				"time": "2019-03-16T11:16:02Z"
+			}, {
+				"snap": false,
+				"price": 9268,
+				"time": "2019-03-17T16:52:51Z"
+			}, {
+				"snap": false,
+				"price": 9496,
+				"time": "2019-03-18T11:12:28Z"
+			}, {
+				"snap": false,
+				"price": 9929,
+				"time": "2019-03-19T16:37:23Z"
+			}, {
+				"snap": false,
+				"price": 10220,
+				"time": "2019-03-20T15:05:38Z"
+			}, {
+				"snap": false,
+				"price": 10501,
+				"time": "2019-03-21T11:13:54Z"
+			}, {
+				"snap": false,
+				"price": 10695,
+				"time": "2019-03-22T11:14:54Z"
+			}],
+			"change": 19.8
+		},
+		"latest": 10695,
+		"latest_time": "2019-03-22T11:14:54Z"
+	}
+}, {
+	"name": "Hard Skin",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": 1,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 368,
+				"time": "2019-03-16T09:12:16Z"
+			}, {
+				"snap": false,
+				"price": 391,
+				"time": "2019-03-17T14:48:17Z"
+			}, {
+				"snap": false,
+				"price": 399,
+				"time": "2019-03-18T09:10:52Z"
+			}, {
+				"snap": false,
+				"price": 403,
+				"time": "2019-03-19T14:34:44Z"
+			}, {
+				"snap": false,
+				"price": 408,
+				"time": "2019-03-20T09:11:30Z"
+			}, {
+				"snap": false,
+				"price": 411,
+				"time": "2019-03-21T09:12:06Z"
+			}, {
+				"snap": false,
+				"price": 408,
+				"time": "2019-03-22T09:12:34Z"
+			}],
+			"change": 10.9
+		},
+		"latest": 408,
+		"latest_time": "2019-03-22T09:12:34Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 397,
+				"time": "2019-03-16T11:23:29Z"
+			}, {
+				"snap": false,
+				"price": 395,
+				"time": "2019-03-17T16:59:46Z"
+			}, {
+				"snap": false,
+				"price": 394,
+				"time": "2019-03-18T11:19:21Z"
+			}, {
+				"snap": false,
+				"price": 394,
+				"time": "2019-03-19T16:44:46Z"
+			}, {
+				"snap": false,
+				"price": 390,
+				"time": "2019-03-20T15:14:42Z"
+			}, {
+				"snap": false,
+				"price": 400,
+				"time": "2019-03-21T11:20:37Z"
+			}, {
+				"snap": false,
+				"price": 412,
+				"time": "2019-03-22T11:22:08Z"
+			}],
+			"change": 3.8
+		},
+		"latest": 412,
+		"latest_time": "2019-03-22T11:22:08Z"
+	}
+}, {
+	"name": "Dog Teeth",
+	"type": 11,
+	"image": null,
+	"global_sea_diff": 85.4,
+	"global": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 48233,
+				"time": "2019-03-16T09:07:32Z"
+			}, {
+				"snap": false,
+				"price": 44282,
+				"time": "2019-03-17T14:44:01Z"
+			}, {
+				"snap": false,
+				"price": 41448,
+				"time": "2019-03-18T09:06:42Z"
+			}, {
+				"snap": false,
+				"price": 44207,
+				"time": "2019-03-19T14:29:37Z"
+			}, {
+				"snap": false,
+				"price": 48679,
+				"time": "2019-03-20T09:06:24Z"
+			}, {
+				"snap": false,
+				"price": 50382,
+				"time": "2019-03-21T09:06:32Z"
+			}, {
+				"snap": false,
+				"price": 53144,
+				"time": "2019-03-22T09:07:07Z"
+			}],
+			"change": 10.2
+		},
+		"latest": 53144,
+		"latest_time": "2019-03-22T09:07:07Z"
+	},
+	"sea": {
+		"week": {
+			"data": [{
+				"snap": false,
+				"price": 84763,
+				"time": "2019-03-16T11:18:38Z"
+			}, {
+				"snap": false,
+				"price": 81204,
+				"time": "2019-03-17T16:54:38Z"
+			}, {
+				"snap": false,
+				"price": 79742,
+				"time": "2019-03-18T11:14:18Z"
+			}, {
+				"snap": false,
+				"price": 84427,
+				"time": "2019-03-19T16:39:11Z"
+			}, {
+				"snap": false,
+				"price": 87839,
+				"time": "2019-03-20T15:07:24Z"
+			}, {
+				"snap": false,
+				"price": 93005,
+				"time": "2019-03-21T11:15:19Z"
+			}, {
+				"snap": false,
+				"price": 98552,
+				"time": "2019-03-22T11:17:03Z"
+			}],
+			"change": 16.3
+		},
+		"latest": 98552,
+		"latest_time": "2019-03-22T11:17:03Z"
+	}
+}]
