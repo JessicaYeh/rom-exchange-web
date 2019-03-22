@@ -54,9 +54,9 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
     },
     elements: {
       point: {
-        radius: 3,
+        radius: this.props.range === Range.Week ? 3 : 0,
         hoverRadius: 4,
-        hitRadius: 20,
+        hitRadius: this.props.range === Range.Week ? 20 : 5,
         strokeWidth: 1,
       }
     },
@@ -73,6 +73,7 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
           unit: 'day' as TimeUnit
         },
         ticks: {
+          autoSkip: true,
           maxRotation: 0
         }
       }],
@@ -175,12 +176,14 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
 
   private serverRangeData(server: Server): RangeData {
     const serverData = this.serverData(server);
-    if (this.props.range === Range.Week) {
-      return serverData.week;
-    } else if (this.props.range === Range.Month) {
-      return serverData.month;
-    } else {
+    if (this.props.range === Range.All && serverData.all) {
       return serverData.all;
+    } else if (this.props.range === Range.Month && serverData.month) {
+      return serverData.month;
+    } else if (this.props.range === Range.Week && serverData.week) {
+      return serverData.week;
+    } else {
+      return { data: [], change: 0 };
     }
   }
 

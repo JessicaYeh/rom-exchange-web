@@ -8,9 +8,9 @@ export interface ItemData {
 }
 
 export interface ServerData {
-    all: RangeData;
-    month: RangeData;
-    week: RangeData;
+    all?: RangeData;
+    month?: RangeData;
+    week?: RangeData;
     latest: number;
 }
 

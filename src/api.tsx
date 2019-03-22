@@ -83,7 +83,7 @@ export class API {
           sort: query.sort ? query.sort.sort : undefined,
           sort_dir: query.sort ? query.sort.direction : undefined,
           sort_server: query.sort ? query.sort.server : undefined,
-          sort_range: query.sort ? query.sort.range : undefined
+          range: query.sort ? query.sort.range : undefined
         },
         json: true
       }) :
@@ -133,12 +133,15 @@ export class API {
   }
 
   private static parseServerJSON(serverJSON: {}): ServerData {
-    return {
-      all: this.parseRangeJSON(serverJSON['all']),
-      month: this.parseRangeJSON(serverJSON['month']),
-      week: this.parseRangeJSON(serverJSON['week']),
+    const serverData = {
       latest: serverJSON['latest']
     };
+
+    if (serverJSON['all']) { serverData['all'] = this.parseRangeJSON(serverJSON['all']); }
+    if (serverJSON['month']) { serverData['month'] = this.parseRangeJSON(serverJSON['month']); }
+    if (serverJSON['week']) { serverData['week'] = this.parseRangeJSON(serverJSON['week']); }
+
+    return serverData;
   }
 
   private static parseRangeJSON(rangeJSON: {}): RangeData {
