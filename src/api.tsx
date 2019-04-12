@@ -52,7 +52,8 @@ export enum ItemType {
   "Garments card" = 24,
   "Shoe card" = 25,
   "Accessory card" = 26,
-  "Headwear card" = 27
+  "Headwear card" = 27,
+  "Mount" = 28
 }
 
 export interface SortOptions {
