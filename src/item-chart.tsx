@@ -141,6 +141,7 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
       datasets.push({
         label: Server.Global,
         borderWidth: 2,
+        spanGaps: true,
         backgroundColor: this.GLOBAL_FILL_COLOR,
         borderColor: this.GLOBAL_COLOR,
         pointBackgroundColor,
@@ -154,6 +155,7 @@ export class ItemChart extends React.Component<ItemChartProps, {}> {
       datasets.push({
         label: Server.SEA,
         borderWidth: 2,
+        spanGaps: true,
         backgroundColor: this.SEA_FILL_COLOR,
         borderColor: this.SEA_COLOR,
         pointBackgroundColor,
