@@ -1,6 +1,7 @@
 import { observable } from 'mobx';
 import { observer } from 'mobx-react';
 import * as React from 'react';
+// @ts-ignore
 import * as qs from 'query-string';
 const autobind = require('react-autobind');
 
@@ -16,8 +17,10 @@ import {
   Toolbar,
   MenuItem,
   Tooltip,
-  Modal
+  Modal,
+  Snackbar
 } from '@material-ui/core';
+import Alert from '@material-ui/lab/Alert';
 import SearchIcon from '@material-ui/icons/Search';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import BookIcon from '@material-ui/icons/LocalLibraryOutlined';
@@ -64,10 +67,7 @@ const theme = createMuiTheme({
         }
       }
     }
-  },
-  typography: {
-    useNextVariants: true,
-  },
+  }
 });
 
 interface AppState {
@@ -286,6 +286,11 @@ class App extends React.Component<any, AppState> {
           </Modal>
           {this.renderItemCharts()}
         </div>
+        <Snackbar open={true}>
+          <Alert elevation={6} variant="filled" severity="error">
+            Due to Global and SEA being episode synced as of January 16, 2020, new price data will no longer be added to ROM Exchange. Data collection was also becoming increasingly a chore. Sincerest apologies for the inconvenience.
+          </Alert>
+        </Snackbar>
       </MuiThemeProvider>
     );
   }

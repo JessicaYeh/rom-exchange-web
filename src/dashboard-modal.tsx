@@ -125,12 +125,6 @@ class DashboardModal extends React.Component<DashboardModalProps, DashboardModal
               </InputAdornment>
             )
           }}
-          InputLabelProps={{
-            FormLabelClasses: {
-              root: styles["dashboard-url"],
-              focused: styles["dashboard-url"]
-            }
-          }}
         />
       );
     }

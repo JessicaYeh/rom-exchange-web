@@ -23,4 +23,4 @@ All contributions are welcome! If you would like to contribute a feature, bug fi
 
 ## First Run
 
-In a command line terminal, go to the `rom-exchange-web` folder and type `npm install` to install dependencies, then `npm run start` to build and run the app in development mode on [http://localhost:3000](http://localhost:3000). Changes made in source files will automatically be built and the page will be refreshed.
+In a command line terminal, go to the `rom-exchange-web` folder and type `yarn` to install dependencies, then `yarn start` to build and run the app in development mode on [http://localhost:3000](http://localhost:3000). Changes made in source files will automatically be built and the page will be refreshed.
